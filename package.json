@@ -1,16 +1,17 @@
 {
-  "name": "taller2_web",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Camila Mora",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.3"
-  },
-  "devDependencies": {},
-  "description": ""
+    "name": "taller2_web",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Camila Mora",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.3"
+    },
+    "devDependencies": {},
+    "description": ""
 }
