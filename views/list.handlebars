@@ -1,18 +1,17 @@
-<div class="filter">
+<nav class="filter">
     <h2 class="filter__title">Album</h2>
-    
+
     <h3 class="filter__tiCate">Category</h3>
-        <nav class="filter__listCate">
-            <ul>
+
+            <ul class="filter__listCate">
                 <li>Female Group</li>
                 <li>Male Group</li>
                 <li>Solo</li>
             </ul>
-        </nav>
     
     <h3 class="filter__ticompa">Company</h3>
-     <nav class="filter__listCompa">
-        <ul>
+
+        <ul class="filter__listCompa">
              <li>Ateam</li>
              <li>BigHit</li>
              <li>Cube Entertainmen</li>
@@ -28,19 +27,17 @@
              <li>Victor Entertainmen</li>
              <li>YG Family</li>
          </ul>
-     </nav>
 
     <h3 class="filter__tiDate">Date</h3>
-    <nav class="filter__listDate">
-         <ul>
+
+         <ul class="filter__listDate">
              <li>2016</li>
              <li>2018</li>
              <li>2019</li>
              <li>2020</li>
         </ul>
-     </nav>
 
-</div>
+</nav>
 
 {{#each products}}
     <div class="product">
@@ -63,3 +60,10 @@
         <button class="product__cart">ADD TO CART</button>
     </div>
 {{/each}} 
+
+  <section class="NewsLetter">
+        <h2 class="NewsLetter__title">JOIN THE MAILING LIST</h2>
+        <input class="NewsLetter__box" type="text" placeholder="Write your email">
+        <br>
+        <img class="NewsLetter__img" src="./data/red.png" alt="Social media">
+    </section>
