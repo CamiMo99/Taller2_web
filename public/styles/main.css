@@ -678,6 +678,57 @@ body {
 }
 
 .filter {
-  background-color: blue;
+  width: 320px;
+  background: white;
+  border-radius: 40px;
+  padding: 10px 20px 15px 35px;
+  font-family: "Dosis", sans-serif;
+  margin-left: 60px;
+  margin-top: 115px;
+}
+
+.filter__title {
+  font-size: 36px;
+  border-bottom: 2px solid #5b6fa5;
+  color: #101939;
+}
+
+.filter__tiCate {
+  font-size: 21px;
+  color: #6578a0;
+}
+
+.filter__listCate {
+  font-size: 18px;
+  color: #a5b3d3;
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #5b6fa5;
+}
+
+.filter__ticompa {
+  font-size: 21px;
+  color: #6578a0;
+}
+
+.filter__listCompa {
+  font-size: 18px;
+  color: #a5b3d3;
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #5b6fa5;
+}
+
+.filter__tiDate {
+  font-size: 21px;
+  color: #6578a0;
+}
+
+.filter__listDate {
+  font-size: 18px;
+  color: #a5b3d3;
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #5b6fa5;
 }
 /*# sourceMappingURL=main.css.map */

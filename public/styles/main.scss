@@ -1,3 +1,4 @@
+//VARIABLES GLOBALES
 $primary-color: #101939;
 $primary-font: 'Dosis',
 sans-serif;
@@ -5,6 +6,11 @@ $second-font: LemonMilk,
 serif;
 $LeftSpace: 60px;
 $breakpoint-respo: 414px;
+//VARIABLES DEL FILTRO
+$colorFilter: rgb(101, 120, 160);
+$colorListFilter: rgb(165, 179, 211);
+$fontSizeFilterSub: 21px;
+$fontSizeFilterlist: 18px;
 * {
     box-sizing: border-box;
 }
@@ -29,4 +35,4 @@ body {
 @import 'mainFooter';
 @import 'mainChoose';
 @import 'mainGallery';
-@import 'listProducts';
+@import 'mainListProduct';
