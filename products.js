@@ -1,6 +1,6 @@
 const products = [{
         name: 'kill this love',
-        img: '/data/gale4.png',
+        img: '/data/kill.jpg',
         nameG: 'BLACKPINK',
         typeG: 'Female group',
         company: 'YG entertainment',
@@ -9,7 +9,7 @@ const products = [{
     },
     {
         name: 'timeless',
-        img: '/data/gale5.png',
+        img: '/data/suju.jpg',
         nameG: 'Super Junior',
         typeG: 'Male group',
         company: 'SM Entertainment',
@@ -19,6 +19,7 @@ const products = [{
     {
 
         name: 'Layers',
+        img: '/data/layer.jpg',
         nameG: 'Ong Seong Wu',
         typeG: 'solo',
         company: 'Fantagio',
@@ -28,6 +29,7 @@ const products = [{
     {
 
         name: 'Reality in black',
+        img: '/data/mamamoo.jpg',
         nameG: 'MAMAMOO',
         typeG: 'Female group',
         company: 'Victor Entertainment',
@@ -37,6 +39,7 @@ const products = [{
     {
 
         name: 'DYE',
+        img: '/data/got7.jpg',
         nameG: 'GOT7',
         typeG: 'Male group',
         company: 'JYP Entertainment',
@@ -46,6 +49,7 @@ const products = [{
     {
 
         name: 'Color on me',
+        img: '/data/color.jpg',
         nameG: 'Kang Daniel',
         typeG: 'Solo',
         company: 'Konnect Entertainment',
@@ -55,6 +59,7 @@ const products = [{
     {
 
         name: 'The perfect red velvet',
+        img: '/data/red.jpg',
         nameG: 'Red Velvet',
         typeG: 'Female group',
         company: 'SM Entertainment',
@@ -64,6 +69,7 @@ const products = [{
     {
 
         name: 'Map og soul: 7',
+        img: '/data/bts.jpg',
         nameG: 'BTS',
         typeG: 'Male group',
         company: 'BigHit',
@@ -74,6 +80,7 @@ const products = [{
     {
 
         name: 'WHY?',
+        img: '/data/why.jpg',
         nameG: 'Jeong Min',
         typeG: 'Solo',
         company: 'Startship Entertainment',
@@ -83,6 +90,7 @@ const products = [{
     {
 
         name: 'I trust',
+        img: '/data/trust.jpg',
         nameG: '(G)I-DLE',
         typeG: 'Female group',
         company: 'Cube Entertainment',
@@ -92,6 +100,7 @@ const products = [{
     {
 
         name: 'One & only',
+        img: '/data/astro.jpg',
         nameG: 'ASTRO',
         typeG: 'Male group',
         company: 'Fantagio',
@@ -101,6 +110,7 @@ const products = [{
     {
 
         name: 'Flourishing',
+        img: '/data/chungHa.jpg',
         nameG: 'Chung Ha',
         typeG: 'Solo',
         company: 'MNH Entretainment',
@@ -110,6 +120,7 @@ const products = [{
     {
 
         name: 'ITZ ICY',
+        img: '/data/itzy.jpg',
         nameG: 'ITZY',
         typeG: 'Female group',
         company: 'JYP Entertainment',
@@ -119,6 +130,7 @@ const products = [{
     {
 
         name: 'Dazzle Dazzle',
+        img: '/data/weki.jpg',
         nameG: 'Weki Meki',
         typeG: 'Female group',
         company: 'Fantagio',
@@ -128,6 +140,7 @@ const products = [{
     {
 
         name: 'Obsession',
+        img: '/data/exo.jpg',
         nameG: 'EXO',
         typeG: 'Male group',
         company: 'SM Entertainment',
@@ -137,6 +150,7 @@ const products = [{
     {
 
         name: 'Love poem',
+        img: '/data/lovepoem.jpg',
         nameG: 'IU',
         typeG: 'solo',
         company: 'Kakao M',
@@ -146,6 +160,7 @@ const products = [{
     {
 
         name: 'All about love',
+        img: '/data/monsta.jpg',
         nameG: 'MONSTA X',
         typeG: 'Male group',
         company: 'Startship Entertainment',
@@ -155,6 +170,7 @@ const products = [{
     {
 
         name: 'plant',
+        img: '/data/plant.jpg',
         nameG: 'Se Jeong',
         typeG: 'Solo',
         company: 'Jellyfish Entertainment',
@@ -164,6 +180,7 @@ const products = [{
     {
 
         name: 'Poison',
+        img: '/data/poison.jpg',
         nameG: 'VAV',
         typeG: 'Male group',
         company: 'Ateam',
@@ -173,6 +190,7 @@ const products = [{
     {
 
         name: 'Going seventeen',
+        img: '/data/seventeen.jpg',
         nameG: 'Seventeen',
         typeG: 'Male group',
         company: 'Pledis Entertainment',
