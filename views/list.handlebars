@@ -1,9 +1,21 @@
-
-<h1 class="title">PRODUCTOS ALBUMES</h1>
-
-<h2>AQUI DEBERIAN YO</h2>
 {{#each products}}
-<img class="imagenes" src="{{img}}" alt="">
-<p>{{ name }}</p>
-<p>{{ price }}</p>
+    <div class="product">
+        <img class="product__img" src="{{img}}" alt="">
+        <h2 class="product__title">
+            {{name}}
+        </h2>
+        <h4 class="product__group">
+            {{nameG}}
+        </h4>
+        <h5 class="product__compa">
+            {{company}}
+        </h5>
+        <h5 class="product__date">
+            {{date}}
+        </h5>
+        <h3 class="product__price">
+            $ {{price}}
+        </h3>
+        <button class="product__cart">ADD TO CART</button>
+    </div>
 {{/each}} 
