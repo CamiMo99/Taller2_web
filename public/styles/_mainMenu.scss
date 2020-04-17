@@ -1,0 +1,57 @@
+.Mainnav {
+    display: flex;
+    justify-content: space-between;
+    background: $primary-color;
+    color: white;
+    font-family: $primary-font;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px $LeftSpace;
+    pointer-events: auto;
+    &--mobile {
+        display: flex !important;
+        flex-direction: column;
+    }
+    &__link {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: $breakpoint-respo) {
+    .Mainnav {
+        font-size: 25px;
+        @media (max-width: $breakpoint-respo) {
+            display: none;
+        }
+    }
+}
+
+.ham {
+    background-color: $primary-color;
+    &__BtnHamburger {
+        display: none;
+        background-color: $primary-color;
+        flex-direction: column;
+        justify-content: space-between;
+        border: none;
+        align-items: stretch;
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        span {
+            height: 4px;
+            border-radius: 10px;
+            width: 100%;
+            background-color: white;
+        }
+        @media (max-width: $breakpoint-respo) {
+            display: flex;
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+}

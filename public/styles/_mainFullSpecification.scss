@@ -1,0 +1,57 @@
+.FullSpecifications {
+    &__content {
+        position: absolute;
+    }
+    &__title {
+        font-family: $second-font;
+        font-size: 60px;
+        padding: 0px $LeftSpace;
+        padding-top: 140px;
+    }
+    &__text {
+        font-family: $primary-font;
+        font-size: 30px;
+        padding: 0px $LeftSpace;
+    }
+    &__bullets {
+        font-family: $primary-font;
+        font-size: 20px;
+        padding: 5px 80px;
+    }
+    &__img {
+        position: relative;
+        left: 700px;
+        top: -5px;
+        width: 50%;
+    }
+}
+
+@media (max-width: $breakpoint-respo) {
+    .FullSpecifications {
+        &__content {
+            position: static;
+        }
+        &__title {
+            font-size: 35px;
+            padding: 0px $LeftSpace;
+            padding-top: 20px;
+            text-align: center;
+        }
+        &__text {
+            font-family: $primary-font;
+            font-size: 20px;
+            padding: 0px $LeftSpace;
+            text-align: center;
+        }
+        &__bullets {
+            font-family: $primary-font;
+            font-size: 15px;
+            padding: 5px 70px;
+        }
+        &__img {
+            position: static;
+            width: 100%;
+            padding: 20px;
+        }
+    }
+}

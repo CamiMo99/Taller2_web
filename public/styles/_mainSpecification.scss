@@ -1,0 +1,29 @@
+.specification {
+    position: relative;
+    &__songs {
+        width: 40%;
+    }
+    &__coverAl {
+        width: 59%;
+    }
+    &__title {
+        font-family: $second-font;
+        font-size: 60px;
+        position: absolute;
+        top: 0px;
+        left: 900px;
+        padding: 20px $LeftSpace;
+    }
+    &__text {
+        font-family: $primary-font;
+        font-weight: 600;
+        font-size: 30px;
+        position: absolute;
+        top: 200px;
+        left: 690px;
+        list-style-type: none;
+    }
+    @media (max-width: $breakpoint-respo) {
+        display: none;
+    }
+}

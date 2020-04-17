@@ -1,0 +1,32 @@
+$primary-color: #101939;
+$primary-font: 'Dosis',
+sans-serif;
+$second-font: LemonMilk,
+serif;
+$LeftSpace: 60px;
+$breakpoint-respo: 414px;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #EDEDED;
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(../data/LemonMilk.otf);
+}
+
+@import 'mainHeader';
+@import 'mainSearch';
+@import 'mainMenu';
+@import 'mainpublicity';
+@import 'mainSpecification';
+@import 'mainFullSpecification';
+@import 'mainNewLetter';
+@import 'mainFooter';
+@import 'mainChoose';
+@import 'mainGallery';
+@import 'listProducts';

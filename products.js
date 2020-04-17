@@ -1,5 +1,6 @@
-var products = [{
+const products = [{
         name: 'kill this love',
+        img: '/data/gale4.png',
         nameG: 'BLACKPINK',
         typeG: 'Female group',
         company: 'YG entertainment',
@@ -8,6 +9,7 @@ var products = [{
     },
     {
         name: 'timeless',
+        img: '/data/gale5.png',
         nameG: 'Super Junior',
         typeG: 'Male group',
         company: 'SM Entertainment',
@@ -177,4 +179,6 @@ var products = [{
         date: 2016,
         price: 14.10,
     },
+
 ];
+module.exports = products;
