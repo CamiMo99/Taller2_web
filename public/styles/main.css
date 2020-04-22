@@ -738,7 +738,43 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -700px 20px 20px 440px;
+  margin: -865px 20px 20px 440px;
+}
+
+.store__sort {
+  background-color: #101939;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  width: 890px;
+  height: 60px;
+  margin-bottom: 90px;
+  margin-left: 30px;
+  border-radius: 20px;
+  text-align: end;
+}
+
+.store__options {
+  background: white;
+  display: block;
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  color: #101939;
+  padding: .4em 1.4em .3em .8em;
+  width: 250px;
+  max-width: 100%;
+  border: 2px solid #6578a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 50px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("/data/flecha.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%;
 }
 
 .product {
@@ -806,7 +842,7 @@ body {
   font-size: 20px;
   width: 890px;
   height: 60px;
-  margin: 20px 0px 20px 470px;
+  margin: 20px 0px 50px 470px;
   border-radius: 20px;
   text-align: end;
 }

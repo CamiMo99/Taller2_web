@@ -40,16 +40,16 @@
 
 </nav>
 
-<nav class="sort">
+
+<section class="store">
+<nav class="store__sort">
     Sort by:
-    <select>
+    <select class="store__options">
         <option value="" disabled="true" selected="true">Select...</option>
         <option value="30000">Menor a $30.000</option>
         <option value="50000">Menor a $50.000</option>
     </select>
 </nav> 
-
-<section class="store">
 {{#each products}}
     <div class="product">
         <a href="/products/{{ name }}/{{@index}}">
