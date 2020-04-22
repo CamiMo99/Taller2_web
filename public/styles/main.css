@@ -731,4 +731,87 @@ body {
   padding-bottom: 20px;
   border-bottom: 2px solid #5b6fa5;
 }
+
+.store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -700px 20px 20px 440px;
+}
+
+.product {
+  background: white;
+  width: 263px;
+  height: 500px;
+  padding: 20px;
+  margin: 0px 20px 20px 30px;
+  text-align: center;
+  color: #101939;
+}
+
+.product__img {
+  width: 221px;
+  height: 221px;
+  -webkit-box-shadow: 2px 4px 10px #101939;
+          box-shadow: 2px 4px 10px #101939;
+  margin-bottom: -10px;
+}
+
+.product__title {
+  font-family: LemonMilk, serif;
+  font-size: 23px;
+}
+
+.product__group {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  margin: -10px;
+}
+
+.product__compa {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+}
+
+.product__date {
+  font-family: "Dosis", sans-serif;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.product__price {
+  font-family: LemonMilk, serif;
+  font-size: 24px;
+  color: red;
+  margin-top: -5px;
+}
+
+.product__cart {
+  background: #101939;
+  font-family: "Dosis", sans-serif;
+  font-size: 17px;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 13px;
+  margin-top: -5px;
+}
+
+.barNext {
+  background-color: #101939;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  width: 890px;
+  height: 60px;
+  margin: 20px 0px 20px 470px;
+  border-radius: 20px;
+  text-align: end;
+}
+
+.barNext__text {
+  padding: 17px 50px;
+}
 /*# sourceMappingURL=main.css.map */

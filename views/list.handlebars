@@ -1,4 +1,5 @@
 <nav class="filter">
+
     <h2 class="filter__title">Album</h2>
 
     <h3 class="filter__tiCate">Category</h3>
@@ -14,17 +15,17 @@
         <ul class="filter__listCompa">
              <li>Ateam</li>
              <li>BigHit</li>
-             <li>Cube Entertainmen</li>
+             <li>Cube Entertainment</li>
              <li>Fantagio</li>
-             <li>Jellyfish Entertainmen</li>
-             <li>JYP Entertainmen</li>
+             <li>Jellyfish Entertainment</li>
+             <li>JYP Entertainment</li>
              <li>Kakao M</li>
-             <li>Konnect Entertainmen</li>
-             <li>MNH Entertainmen</li>
-             <li>Pledis Entertainmen</li>
-             <li>SM Entertainmen</li>
-             <li>Startship Entertainmen</li>
-             <li>Victor Entertainmen</li>
+             <li>Konnect Entertainment</li>
+             <li>MNH Entertainment</li>
+             <li>Pledis Entertainment</li>
+             <li>SM Entertainment</li>
+             <li>Startship Entertainment</li>
+             <li>Victor Entertainment</li>
              <li>YG Family</li>
          </ul>
 
@@ -39,27 +40,45 @@
 
 </nav>
 
+<nav class="sort">
+    Sort by:
+    <select>
+        <option value="" disabled="true" selected="true">Select...</option>
+        <option value="30000">Menor a $30.000</option>
+        <option value="50000">Menor a $50.000</option>
+    </select>
+</nav> 
+
+<section class="store">
 {{#each products}}
     <div class="product">
+        <a href="/products/{{ name }}/{{@index}}">
         <img class="product__img" src="{{img}}" alt="">
         <h2 class="product__title">
             {{name}}
+        </a>
         </h2>
-        <h4 class="product__group">
+        <p class="product__group">
             {{nameG}}
-        </h4>
-        <h5 class="product__compa">
+        </p>
+        <p class="product__compa">
             {{company}}
-        </h5>
-        <h5 class="product__date">
+        </p>
+        <p class="product__date">
             {{date}}
-        </h5>
-        <h3 class="product__price">
+        </p>
+        <p class="product__price">
             $ {{price}}
-        </h3>
+        </p>
         <button class="product__cart">ADD TO CART</button>
     </div>
 {{/each}} 
+</section>
+
+<div class="barNext">
+        <p class="barNext__text"> << 1 2 3 >> </p>
+    </div>
+
 
   <section class="NewsLetter">
         <h2 class="NewsLetter__title">JOIN THE MAILING LIST</h2>
@@ -67,3 +86,5 @@
         <br>
         <img class="NewsLetter__img" src="./data/red.png" alt="Social media">
     </section>
+
+<script src="/scripts/client.js"></script>

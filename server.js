@@ -21,6 +21,13 @@ app.get('/store', function(req, res) {
     res.render('list', context);
 });
 
+//Ruta del producto
+app.get('/products/:name/:id', function(req, res) {
+    var id = parseInt(req.params.id);
+    var produ = products[id];
+
+    res.render('product', produ);
+});
 
 app.listen(3000, function() {
     console.log('app escucha');
