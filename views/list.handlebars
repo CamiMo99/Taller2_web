@@ -3,40 +3,46 @@
     <h2 class="filter__title">Album</h2>
 
     <h3 class="filter__tiCate">Category</h3>
+        <a class="filter__link" href="">
 
             <ul class="filter__listCate">
                 <li>Female Group</li>
                 <li>Male Group</li>
                 <li>Solo</li>
             </ul>
+    </a>
     
     <h3 class="filter__ticompa">Company</h3>
+        <a class="filter__link" href="">
 
-        <ul class="filter__listCompa">
-             <li>Ateam</li>
-             <li>BigHit</li>
-             <li>Cube Entertainment</li>
-             <li>Fantagio</li>
-             <li>Jellyfish Entertainment</li>
-             <li>JYP Entertainment</li>
-             <li>Kakao M</li>
-             <li>Konnect Entertainment</li>
-             <li>MNH Entertainment</li>
-             <li>Pledis Entertainment</li>
-             <li>SM Entertainment</li>
-             <li>Startship Entertainment</li>
-             <li>Victor Entertainment</li>
-             <li>YG Family</li>
-         </ul>
+             <ul class="filter__listCompa">
+                <li>Ateam</li>
+                <li>BigHit</li>
+                <li>Cube Entertainment</li>
+                <li>Fantagio</li>
+                <li>Jellyfish Entertainment</li>
+                <li>JYP Entertainment</li>
+                <li>Kakao M</li>
+                <li>Konnect Entertainment</li>
+                <li>MNH Entertainment</li>
+                <li>Pledis Entertainment</li>
+                <li>SM Entertainment</li>
+                <li>Startship Entertainment</li>
+                <li>Victor Entertainment</li>
+                <li>YG Family</li>
+             </ul>
+        </a>
 
     <h3 class="filter__tiDate">Date</h3>
+        <a class="filter__link" href="">
 
-         <ul class="filter__listDate">
-             <li>2016</li>
-             <li>2018</li>
-             <li>2019</li>
-             <li>2020</li>
-        </ul>
+            <ul class="filter__listDate">
+                <li>2016</li>
+                <li>2018</li>
+                <li>2019</li>
+                <li>2020</li>
+            </ul>
+        </a>
 
 </nav>
 
@@ -50,9 +56,10 @@
         <option value="50000">Menor a $50.000</option>
     </select>
 </nav> 
+
 {{#each products}}
     <div class="product">
-        <a href="/products/{{ name }}/{{@index}}">
+        <a class="product__link" href="/products/{{ name }}/{{@index}}">
         <img class="product__img" src="{{img}}" alt="">
         <h2 class="product__title">
             {{name}}

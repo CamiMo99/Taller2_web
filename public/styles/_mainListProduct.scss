@@ -7,6 +7,9 @@
     font-family: $primary-font;
     margin-left: $LeftSpace;
     margin-top: 115px;
+    &__link {
+        text-decoration: none;
+    }
     &__title {
         font-size: 36px;
         border-bottom: 2px solid rgb(91, 111, 165);
@@ -97,15 +100,25 @@
     margin: 0px 20px 20px 30px;
     text-align: center;
     color: $primary-color;
+    &__link {
+        text-decoration: none;
+        color: $primary-color;
+    }
     &__img {
         width: 221px;
         height: 221px;
         box-shadow: 2px 4px 10px $primary-color;
         margin-bottom: -10px;
     }
+    &__img:hover {
+        box-shadow: 2px 4px 10px $colorFilter;
+    }
     &__title {
         font-family: $second-font;
         font-size: 23px;
+    }
+    &__title:hover {
+        text-decoration: underline;
     }
     &__group {
         font-family: $primary-font;

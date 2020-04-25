@@ -687,6 +687,10 @@ body {
   margin-top: 115px;
 }
 
+.filter__link {
+  text-decoration: none;
+}
+
 .filter__title {
   font-size: 36px;
   border-bottom: 2px solid #5b6fa5;
@@ -787,6 +791,11 @@ body {
   color: #101939;
 }
 
+.product__link {
+  text-decoration: none;
+  color: #101939;
+}
+
 .product__img {
   width: 221px;
   height: 221px;
@@ -795,9 +804,18 @@ body {
   margin-bottom: -10px;
 }
 
+.product__img:hover {
+  -webkit-box-shadow: 2px 4px 10px #6578a0;
+          box-shadow: 2px 4px 10px #6578a0;
+}
+
 .product__title {
   font-family: LemonMilk, serif;
   font-size: 23px;
+}
+
+.product__title:hover {
+  text-decoration: underline;
 }
 
 .product__group {
