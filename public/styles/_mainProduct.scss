@@ -1,0 +1,80 @@
+.info {
+    background-color: white;
+    width: 1320px;
+    height: 800px;
+    margin: 80px 60px;
+    border-radius: 50px;
+    position: relative;
+    &__img {
+        width: 500px;
+        height: 500px;
+        margin: 110px 110px 10px 110px;
+    }
+    &__title {
+        font-family: $second-font;
+        color: $primary-color;
+        font-size: 60px;
+        position: absolute;
+        top: 43px;
+        right: 210px;
+    }
+    &__subTitle {
+        font-family: $primary-font;
+        color: $primary-color;
+        font-size: 30px;
+        position: absolute;
+        top: 140px;
+        right: 108px;
+    }
+    &__price {
+        font-family: $second-font;
+        font-size: 50px;
+        color: red;
+        position: absolute;
+        top: 175px;
+        right: 480px;
+    }
+    &__intro {
+        font-family: $primary-font;
+        color: $primary-color;
+        font-size: 20px;
+        width: 550px;
+        height: 225px;
+        position: absolute;
+        top: 300px;
+        right: 90px;
+    }
+    &__btn {
+        position: absolute;
+        top: 650px;
+        right: 240px;
+    }
+    &__btnC {
+        background: $primary-color;
+        font-family: $primary-font;
+        color: white;
+        border-radius: 13px;
+        font-size: 17px;
+        border: none;
+        padding: 8px 15px;
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+    &__btnB {
+        background: $primary-color;
+        font-family: $primary-font;
+        color: white;
+        border-radius: 13px;
+        font-size: 17px;
+        border: none;
+        padding: 8px 15px;
+        margin-top: -5px;
+    }
+}
+
+//top right bottom left
+.infoimg {
+    width: 1000px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+}

@@ -433,6 +433,9 @@ body {
 }
 
 .foot {
+  background-color: #CDCDCD;
+  height: 50px;
+  padding: 2px;
   font-family: "Dosis", sans-serif;
   color: #4D4D4D;
   font-weight: 500;
@@ -867,5 +870,93 @@ body {
 
 .barNext__text {
   padding: 17px 50px;
+}
+
+.info {
+  background-color: white;
+  width: 1320px;
+  height: 800px;
+  margin: 80px 60px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.info__img {
+  width: 500px;
+  height: 500px;
+  margin: 110px 110px 10px 110px;
+}
+
+.info__title {
+  font-family: LemonMilk, serif;
+  color: #101939;
+  font-size: 60px;
+  position: absolute;
+  top: 43px;
+  right: 210px;
+}
+
+.info__subTitle {
+  font-family: "Dosis", sans-serif;
+  color: #101939;
+  font-size: 30px;
+  position: absolute;
+  top: 140px;
+  right: 108px;
+}
+
+.info__price {
+  font-family: LemonMilk, serif;
+  font-size: 50px;
+  color: red;
+  position: absolute;
+  top: 175px;
+  right: 480px;
+}
+
+.info__intro {
+  font-family: "Dosis", sans-serif;
+  color: #101939;
+  font-size: 20px;
+  width: 550px;
+  height: 225px;
+  position: absolute;
+  top: 300px;
+  right: 90px;
+}
+
+.info__btn {
+  position: absolute;
+  top: 650px;
+  right: 240px;
+}
+
+.info__btnC {
+  background: #101939;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  border-radius: 13px;
+  font-size: 17px;
+  border: none;
+  padding: 8px 15px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.info__btnB {
+  background: #101939;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  border-radius: 13px;
+  font-size: 17px;
+  border: none;
+  padding: 8px 15px;
+  margin-top: -5px;
+}
+
+.infoimg {
+  width: 1000px;
+  margin-left: 220px;
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=main.css.map */
