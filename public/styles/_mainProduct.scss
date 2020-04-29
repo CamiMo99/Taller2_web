@@ -1,38 +1,37 @@
 .info {
+    position: relative;
     background-color: white;
     width: 1320px;
     height: 800px;
     margin: 80px 60px;
     border-radius: 50px;
-    position: relative;
     &__img {
         width: 500px;
         height: 500px;
         margin: 110px 110px 10px 110px;
     }
+}
+
+.infoPro {
+    position: absolute;
+    top: 45px;
+    right: 100px;
     &__title {
         font-family: $second-font;
         color: $primary-color;
         font-size: 60px;
-        position: absolute;
-        top: 43px;
-        right: 210px;
     }
     &__subTitle {
         font-family: $primary-font;
         color: $primary-color;
         font-size: 30px;
-        position: absolute;
-        top: 140px;
-        right: 108px;
+        margin-top: -60px
     }
     &__price {
         font-family: $second-font;
         font-size: 50px;
         color: red;
-        position: absolute;
-        top: 175px;
-        right: 480px;
+        margin-top: -10px
     }
     &__intro {
         font-family: $primary-font;
@@ -40,41 +39,67 @@
         font-size: 20px;
         width: 550px;
         height: 225px;
-        position: absolute;
-        top: 300px;
-        right: 90px;
+        margin-top: -20px
     }
     &__btn {
+        width: 150px;
+        height: 40px;
+        font-family: $primary-font;
+        color: white;
+        border-radius: 13px;
+        font-size: 17px;
+        border: none;
+        //display: flex;
+    }
+    &__btn--C {
+        background: $primary-color;
         position: absolute;
-        top: 650px;
-        right: 240px;
+        left: 800px;
     }
-    &__btnC {
+    &__btn--B {
         background: $primary-color;
-        font-family: $primary-font;
-        color: white;
-        border-radius: 13px;
-        font-size: 17px;
-        border: none;
-        padding: 8px 15px;
-        margin-top: -5px;
-        margin-left: 10px;
+        position: absolute;
+        left: 1000px;
     }
-    &__btnB {
-        background: $primary-color;
+}
+
+.descrip {
+    margin-left: 100px;
+    &__title {
+        width: 1200px;
+        font-family: $second-font;
+        font-size: 35px;
+        color: $primary-color;
+        border-bottom: 2px solid $primary-color;
+    }
+    &__text {
         font-family: $primary-font;
-        color: white;
-        border-radius: 13px;
-        font-size: 17px;
-        border: none;
-        padding: 8px 15px;
-        margin-top: -5px;
+        font-size: 23px;
+        color: $primary-color;
+        font-weight: 500;
+    }
+    &__especi {
+        width: 560px;
+        height: 300px;
+        background-color: white;
+        border: 3px solid #5B6FA4;
+        border-radius: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    &__list {
+        font-family: $primary-font;
+        font-size: 20px;
+        list-style-type: none;
+        color: $primary-color;
+        margin: 35px 20px;
+        line-height: 1.8;
     }
 }
 
 //top right bottom left
 .infoimg {
-    width: 1000px;
-    margin-left: 220px;
+    width: 900px;
+    margin-left: 280px;
     margin-bottom: 100px;
 }

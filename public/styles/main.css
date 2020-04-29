@@ -692,6 +692,12 @@ body {
 
 .filter__link {
   text-decoration: none;
+  font-size: 18px;
+  color: #a5b3d3;
+}
+
+.filter__link:hover {
+  text-decoration: underline;
 }
 
 .filter__title {
@@ -706,11 +712,10 @@ body {
 }
 
 .filter__listCate {
-  font-size: 18px;
-  color: #a5b3d3;
   list-style-type: none;
   padding-bottom: 20px;
   border-bottom: 2px solid #5b6fa5;
+  line-height: 1.5;
 }
 
 .filter__ticompa {
@@ -719,11 +724,10 @@ body {
 }
 
 .filter__listCompa {
-  font-size: 18px;
-  color: #a5b3d3;
   list-style-type: none;
   padding-bottom: 20px;
   border-bottom: 2px solid #5b6fa5;
+  line-height: 1.5;
 }
 
 .filter__tiDate {
@@ -732,11 +736,10 @@ body {
 }
 
 .filter__listDate {
-  font-size: 18px;
-  color: #a5b3d3;
   list-style-type: none;
   padding-bottom: 20px;
   border-bottom: 2px solid #5b6fa5;
+  line-height: 1.5;
 }
 
 .store {
@@ -873,12 +876,12 @@ body {
 }
 
 .info {
+  position: relative;
   background-color: white;
   width: 1320px;
   height: 800px;
   margin: 80px 60px;
   border-radius: 50px;
-  position: relative;
 }
 
 .info__img {
@@ -887,76 +890,104 @@ body {
   margin: 110px 110px 10px 110px;
 }
 
-.info__title {
+.infoPro {
+  position: absolute;
+  top: 45px;
+  right: 100px;
+}
+
+.infoPro__title {
   font-family: LemonMilk, serif;
   color: #101939;
   font-size: 60px;
-  position: absolute;
-  top: 43px;
-  right: 210px;
 }
 
-.info__subTitle {
+.infoPro__subTitle {
   font-family: "Dosis", sans-serif;
   color: #101939;
   font-size: 30px;
-  position: absolute;
-  top: 140px;
-  right: 108px;
+  margin-top: -60px;
 }
 
-.info__price {
+.infoPro__price {
   font-family: LemonMilk, serif;
   font-size: 50px;
   color: red;
-  position: absolute;
-  top: 175px;
-  right: 480px;
+  margin-top: -10px;
 }
 
-.info__intro {
+.infoPro__intro {
   font-family: "Dosis", sans-serif;
   color: #101939;
   font-size: 20px;
   width: 550px;
   height: 225px;
-  position: absolute;
-  top: 300px;
-  right: 90px;
+  margin-top: -20px;
 }
 
-.info__btn {
-  position: absolute;
-  top: 650px;
-  right: 240px;
-}
-
-.info__btnC {
-  background: #101939;
+.infoPro__btn {
+  width: 150px;
+  height: 40px;
   font-family: "Dosis", sans-serif;
   color: white;
   border-radius: 13px;
   font-size: 17px;
   border: none;
-  padding: 8px 15px;
-  margin-top: -5px;
-  margin-left: 10px;
 }
 
-.info__btnB {
+.infoPro__btn--C {
   background: #101939;
+  position: absolute;
+  left: 800px;
+}
+
+.infoPro__btn--B {
+  background: #101939;
+  position: absolute;
+  left: 1000px;
+}
+
+.descrip {
+  margin-left: 100px;
+}
+
+.descrip__title {
+  width: 1200px;
+  font-family: LemonMilk, serif;
+  font-size: 35px;
+  color: #101939;
+  border-bottom: 2px solid #101939;
+}
+
+.descrip__text {
   font-family: "Dosis", sans-serif;
-  color: white;
-  border-radius: 13px;
-  font-size: 17px;
-  border: none;
-  padding: 8px 15px;
-  margin-top: -5px;
+  font-size: 23px;
+  color: #101939;
+  font-weight: 500;
+}
+
+.descrip__especi {
+  width: 560px;
+  height: 300px;
+  background-color: white;
+  border: 3px solid #5B6FA4;
+  border-radius: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.descrip__list {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  color: #101939;
+  margin: 35px 20px;
+  line-height: 1.8;
 }
 
 .infoimg {
-  width: 1000px;
-  margin-left: 220px;
+  width: 900px;
+  margin-left: 280px;
   margin-bottom: 100px;
 }
 /*# sourceMappingURL=main.css.map */

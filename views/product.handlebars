@@ -1,13 +1,43 @@
 <section class="info">
     <img class="info__img" src="{{imgDes}}" alt="">
-    <h2 class="info__title" >{{name}}</h2>
-    <p class="info__subTitle" >{{miniTitle}}</p>
-    <p class="info__price" >$ {{price}}</p>
-    <p class="info__intro" >{{intro}}</p>
-    <div class="info__btn" >
-    <button class="info__btnC" >ADD TO CART</button>
-    <button class="info__btnB" >BUY IT NOW</button>
+        <div class="infoPro">
+            <h2 class="infoPro__title">{{name}}</h2>
+            <p class="infoPro__subTitle">{{miniTitle}}</p>
+            <p class="infoPro__price">$ {{price}}</p>
+            <p class="infoPro__intro">{{intro}}</p>
+        </div>
+
+  <!-- OPCIONES DE ELECCION DE CANTIDAD, POSTER, VERSION 
+      <nav class="store__sort">
+        <select class="store__options">
+            <option value="" disabled="true" selected="true">Select...</option>
+            <option value="30000">Menor a $30.000</option>
+            <option value="50000">Menor a $50.000</option>
+        </select>
+    </nav> 
+-->
+    <div class="infoPro__btn">
+        <button class="infoPro__btn infoPro__btn--C">ADD TO CART</button>
+        <button class="infoPro__btn infoPro__btn--B">BUY IT NOW</button>
     </div>
+</section>
+
+<section class="descrip" >
+        <h2 class="descrip__title">Description</h2>
+        <p class="descrip__text">* Poster itself is free but handling cost and shipping fee for poster tube are charged during order process.</p>
+
+    <div class="descrip__especi">
+             <ul class="descrip__list">
+                <li><strong>Title: </strong>{{miniTitle}}</li>
+                <li><strong>Release date: </strong>{{Rdate}}</li>
+                <li><strong>Publisher: </strong>{{company}}</li>
+                <li><strong>Languague: </strong>Korean</li>
+                <li><strong>Format: </strong>CD</li>
+                <li><strong>Product code: </strong>{{code}}</li>
+            </ul>
+    </div>
+    
+
 </section>
 
 <img class="infoimg" src="{{imgSell}}" alt="">

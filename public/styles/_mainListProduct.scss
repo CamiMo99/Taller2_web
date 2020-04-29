@@ -9,6 +9,11 @@
     margin-top: 115px;
     &__link {
         text-decoration: none;
+        font-size: $fontSizeFilterlist;
+        color: $colorListFilter;
+    }
+    &__link:hover {
+        text-decoration: underline;
     }
     &__title {
         font-size: 36px;
@@ -20,33 +25,30 @@
         color: $colorFilter;
     }
     &__listCate {
-        font-size: $fontSizeFilterlist;
-        color: $colorListFilter;
         list-style-type: none;
         padding-bottom: 20px;
         border-bottom: 2px solid rgb(91, 111, 165);
+        line-height: 1.5;
     }
     &__ticompa {
         font-size: $fontSizeFilterSub;
         color: $colorFilter;
     }
     &__listCompa {
-        font-size: $fontSizeFilterlist;
-        color: $colorListFilter;
         list-style-type: none;
         padding-bottom: 20px;
         border-bottom: 2px solid rgb(91, 111, 165);
+        line-height: 1.5;
     }
     &__tiDate {
         font-size: $fontSizeFilterSub;
         color: $colorFilter;
     }
     &__listDate {
-        font-size: $fontSizeFilterlist;
-        color: $colorListFilter;
         list-style-type: none;
         padding-bottom: 20px;
         border-bottom: 2px solid rgb(91, 111, 165);
+        line-height: 1.5;
     }
 }
 
