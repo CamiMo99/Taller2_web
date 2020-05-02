@@ -1,21 +1,27 @@
 <section class="info">
-    <img class="info__img" src="{{imgDes}}" alt="">
-        <div class="infoPro">
+    <img class="info__img" src="" alt="">
+    <div class="info__thumbs">
+            <img class="info__thumb" src="{{imgDes}}" alt="">
+            <img class="info__thumb" src="{{imgGa}}" alt="">
+            <img class="info__thumb" src="{{imgGb}}" alt="">
+            <img class="info__thumb" src="{{imgGc}}" alt="">
+    </div>
+      <div class="infoPro">
             <h2 class="infoPro__title">{{name}}</h2>
             <p class="infoPro__subTitle">{{miniTitle}}</p>
             <p class="infoPro__price">$ {{price}}</p>
             <p class="infoPro__intro">{{intro}}</p>
         </div>
 
-  <!-- OPCIONES DE ELECCION DE CANTIDAD, POSTER, VERSION 
+ <!--    OPCIONES DE ELECCION DE CANTIDAD, POSTER, VERSION 
       <nav class="store__sort">
         <select class="store__options">
             <option value="" disabled="true" selected="true">Select...</option>
             <option value="30000">Menor a $30.000</option>
             <option value="50000">Menor a $50.000</option>
         </select>
-    </nav> 
--->
+    </nav> -->
+
     <div class="infoPro__btn">
         <button class="infoPro__btn infoPro__btn--C">ADD TO CART</button>
         <button class="infoPro__btn infoPro__btn--B">BUY IT NOW</button>
@@ -36,8 +42,17 @@
                 <li><strong>Product code: </strong>{{code}}</li>
             </ul>
     </div>
-    
+    <div class="descrip__track">
+        <h3 class="descrip__tTitle">Track List</h3>
+    <ol class="descrip__list2">
+        {{#each trackList}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ol>
+    </div>
 
 </section>
 
 <img class="infoimg" src="{{imgSell}}" alt="">
+
+<script src="/scripts/client.js"></script>

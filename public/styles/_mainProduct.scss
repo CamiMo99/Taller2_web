@@ -5,10 +5,36 @@
     height: 800px;
     margin: 80px 60px;
     border-radius: 50px;
+    padding-top: 110px;
     &__img {
         width: 500px;
         height: 500px;
-        margin: 110px 110px 10px 110px;
+        margin: 0px 110px 10px 110px;
+        object-fit: contain;
+        object-position: center;
+        display: block;
+    }
+    &__thumbs {
+        height: 70px;
+        width: 486px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(91, 111, 165, 0.3);
+        margin: 0px 10px 0px 117px;
+    }
+    &__thumb {
+        width: 50px;
+        height: 50px;
+        margin: 35px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100%;
+        cursor: pointer;
+        &--active {
+            border: 2px solid #274FC8;
+            padding: 5px;
+        }
     }
 }
 
@@ -49,7 +75,6 @@
         border-radius: 13px;
         font-size: 17px;
         border: none;
-        //display: flex;
     }
     &__btn--C {
         background: $primary-color;
@@ -64,7 +89,8 @@
 }
 
 .descrip {
-    margin-left: 100px;
+    margin-left: 120px;
+    position: relative;
     &__title {
         width: 1200px;
         font-family: $second-font;
@@ -80,20 +106,43 @@
     }
     &__especi {
         width: 560px;
-        height: 300px;
+        height: 330px;
         background-color: white;
         border: 3px solid #5B6FA4;
         border-radius: 40px;
         margin-top: 60px;
         margin-bottom: 60px;
+        font-family: $primary-font;
+        color: $primary-color;
+        font-size: 20px;
     }
     &__list {
-        font-family: $primary-font;
-        font-size: 20px;
         list-style-type: none;
-        color: $primary-color;
-        margin: 35px 20px;
+        margin: 55px 20px;
         line-height: 1.8;
+    }
+    &__track {
+        width: 560px;
+        height: 330px;
+        background-color: white;
+        border: 3px solid #5B6FA4;
+        border-radius: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-family: $primary-font;
+        color: $primary-color;
+        font-size: 20px;
+        position: absolute;
+        top: 23.3%;
+        left: 650px;
+    }
+    &__tTitle {
+        margin: 35px 60px 5px 60px;
+    }
+    &__list2 {
+        font-size: 20px;
+        line-height: 1.3;
+        margin-left: 70px;
     }
 }
 

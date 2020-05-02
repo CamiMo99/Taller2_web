@@ -12,6 +12,10 @@ const products = [{
         price: 16.35,
         Rdate: '2019.04.23',
         code: '8809634380036',
+        trackList: ['Kill This Love', 'Don’t Know What To Do', 'Kick It', '아니길 (Hope Not)', '뚜두뚜두 (DDU-DU DDU-DU) (Remix)'],
+        imgGa: '/data/kill1.jpg',
+        imgGb: '/data/kill2.jpg',
+        imgGc: '/data/kill3.jpg'
     },
     {
         name: 'timeless',
@@ -27,6 +31,10 @@ const products = [{
         price: 17.08,
         Rdate: '2020.01.29',
         code: '8809440339563',
+        trackList: ['The crown', 'SUPER clap', 'I think I', 'Somebody New', 'Heads Up', 'Stay with me', 'No drama', 'Show'],
+        imgGa: '/data/suju1.jpg',
+        imgGb: '/data/suju2.jpg',
+        imgGc: '/data/suju3.jpg'
     },
     {
         name: 'Layers',
@@ -42,6 +50,10 @@ const products = [{
         price: 11.48,
         Rdate: '2020.03.26',
         code: '8804775140181',
+        trackList: ['GRAVITY', '너를 위한 카페 (Cafe)', '또, 다시 나를 마주한 채 (After Dark)', 'BYE BYE', 'GUESS WHO', 'WE BELONG'],
+        imgGa: '/data/layer1.jpg',
+        imgGb: '/data/layer2.jpg',
+        imgGc: '/data/layer3.jpg'
     },
     {
         name: 'Reality in black',
@@ -57,6 +69,10 @@ const products = [{
         price: 15.55,
         Rdate: '2019.11.15',
         code: '8804775136047',
+        trackList: ['우린 결국 다시 만날 운명이었니 (Destiny)', '열 밤 (Ten Nights)', 'HIP - title', '4x4ever', 'Hello Mama', 'REALITY', '춤을 춰 (High Tension)', 'I’m Your Fan'],
+        imgGa: '/data/mama1.jpg',
+        imgGb: '/data/mama2.jpg',
+        imgGc: '/data/mama3.jpg'
     },
     {
         name: 'DYE',
@@ -72,6 +88,10 @@ const products = [{
         price: 13.69,
         Rdate: '2020.04.21',
         code: '8809440339778',
+        trackList: ['AURA', 'CRAZY', 'NOT BY THE MOON *title', 'LOVE YOU BETTER', 'TRUST MY LOVE', 'POISON'],
+        imgGa: '/data/dye1.jpg',
+        imgGb: '/data/dye2.jpg',
+        imgGc: '/data/dye3.jpg'
     },
     {
         name: 'Color on me',
@@ -87,6 +107,10 @@ const products = [{
         price: 14.13,
         Rdate: '2019.07.29',
         code: '8803581201239',
+        trackList: ['Intro (Through the night)', 'Color', '뭐해 (What are you up to)', 'Horizon', 'I HOPE'],
+        imgGa: '/data/color1.jpg',
+        imgGb: '/data/color2.jpg',
+        imgGc: '/data/color3.jpg'
     },
     {
         name: 'The perfect red',
@@ -102,6 +126,10 @@ const products = [{
         price: 14.99,
         Rdate: '2018.01.30',
         code: '8809269508850',
+        trackList: ['Bad Boy', '피카부 (Peek-A- Boo)', '봐 (Look)', 'Kingdom Come', 'Time To Love', '두 번째 데이트 (My Second Date)', 'Attaboy', 'Perfect 10', ],
+        imgGa: '/data/red1.jpg',
+        imgGb: '/data/red2.jpg',
+        imgGc: '/data/red3.jpg'
     },
     {
         name: 'Map of soul: 7',
@@ -117,6 +145,10 @@ const products = [{
         price: 20.42,
         Rdate: '2020.02.21',
         code: '8809440339532',
+        trackList: ['Into : Persona', '작은 것들을 위한 시(Boy With Luv) (Feat. Halsey)', 'Make It Right', 'Jamais Vu', 'Dionysus', 'Interlude : Shadow', 'Black Swan'],
+        imgGa: '/data/bts1.jpg',
+        imgGb: '/data/bts2.jpg',
+        imgGc: '/data/bts3.jpg'
     },
 
     {
@@ -133,6 +165,10 @@ const products = [{
         price: 13.47,
         Rdate: '2019.11.07',
         code: '8809696000255',
+        trackList: ['왜 그땐 몰랐을까', '비가 오는데', '왜 그땐 몰랐을까 (inst.)', '비가 오는데 (inst.)'],
+        imgGa: '/data/why1.jpg',
+        imgGb: '/data/why2.jpg',
+        imgGc: '/data/why3.jpg'
     },
     {
         name: 'I trust',
@@ -148,6 +184,10 @@ const products = [{
         price: 11.89,
         Rdate: '2020.04.07',
         code: '8804775141232',
+        trackList: ['Oh my god - title', '사랑해', 'Maybe', 'LION', 'Oh my god (English Ver.)'],
+        imgGa: '/data/trust1.jpg',
+        imgGb: '/data/trust2.jpg',
+        imgGc: '/data/trust3.jpg'
     },
     {
 
@@ -164,6 +204,10 @@ const products = [{
         price: 10.55,
         Rdate: '2020.03.13',
         code: '8809696001368',
+        trackList: ['ONE&ONLY *Title', 'ONE&ONLY (Inst.)'],
+        imgGa: '/data/astro1.jpg',
+        imgGb: '/data/astro2.jpg',
+        imgGc: '/data/astro3.jpg'
     },
     {
 
@@ -180,6 +224,10 @@ const products = [{
         price: 13.48,
         Rdate: '2019.06.25',
         code: '8809658312938',
+        trackList: ['Chica', '우리가 즐거워', 'Call It Love', 'Flourishing', 'Snapping * Title'],
+        imgGa: '/data/chunga1.jpg',
+        imgGb: '/data/chunga2.jpg',
+        imgGc: '/data/chunga3.jpg'
     },
     {
 
@@ -196,6 +244,10 @@ const products = [{
         price: 11.76,
         Rdate: '2019.07.30',
         code: '8809440338979',
+        trackList: ['ICY [TITLE*]', 'CHERRY', 'IT’z SUMMER', '달라달라 (DallasK Remix)', 'WANT IT? (I-mad Royal Remix)'],
+        imgGa: '/data/itzy1.jpg',
+        imgGb: '/data/itzy2.jpg',
+        imgGc: '/data/itzy3.jpg'
     },
     {
 
@@ -212,6 +264,10 @@ const products = [{
         price: 12.59,
         Rdate: '2020.02.10',
         code: '8804775076015',
+        trackList: ['SINGLE DAZZLE DAZZLE'],
+        imgGa: '/data/weki1.jpg',
+        imgGb: '/data/weki2.jpg',
+        imgGc: '/data/weki3.jpg'
     },
     {
 
@@ -228,6 +284,10 @@ const products = [{
         price: 16.53,
         Rdate: '2019.11.28',
         code: '8809440339433',
+        trackList: ['Obsession', '지킬 (Jekyll)', '춤 (Groove)', 'Ya Ya Ya', 'Baby You Are', 'Non Stop', '오늘도 (Day After Day)', '나비효과 (Butterfly Effect)'],
+        imgGa: '/data/exo1.jpg',
+        imgGb: '/data/exo2.jpg',
+        imgGc: '/data/exo3.jpg'
     },
     {
 
@@ -244,6 +304,10 @@ const products = [{
         price: 12.99,
         Rdate: '2019.11.20',
         code: '8804775136351',
+        trackList: ['Unlucky', 'The visitor', 'Blueming', 'Above the time', 'Lullaby', 'Love poem'],
+        imgGa: '/data/love1.jpg',
+        imgGb: '/data/love2.jpg',
+        imgGc: '/data/love3.jpg'
     },
     {
 
@@ -260,6 +324,10 @@ const products = [{
         price: 28.99,
         Rdate: '2020.05.12',
         code: '8804775142444',
+        trackList: ['Fantasia', 'Flow', 'Zone', 'Chaotic', 'Beautiful night', 'It ain’t over', 'Stand up'],
+        imgGa: '/data/fanta1.jpg',
+        imgGb: '/data/fanta2.jpg',
+        imgGc: '/data/fanta3.jpg'
     },
     {
 
@@ -276,6 +344,10 @@ const products = [{
         price: 11.45,
         Rdate: '2020.03.18',
         code: '8809704412599',
+        trackList: ['화분', '오늘은 괜찮아', 'SKYLINE', '오리발', '꿈속에서 널'],
+        imgGa: '/data/plant1.jpg',
+        imgGb: '/data/plant2.jpg',
+        imgGc: '/data/plant3.jpg'
     },
     {
 
@@ -292,6 +364,10 @@ const products = [{
         price: 11.12,
         Rdate: '2019.10.22',
         code: '8809314513693',
+        trackList: ['Poison', '119', 'Runway', 'Sweet Heart', 'Poison (inst.)'],
+        imgGa: '/data/vav1.jpg',
+        imgGb: '/data/vav2.jpg',
+        imgGc: '/data/vav3.jpg'
     },
     {
 
@@ -308,6 +384,10 @@ const products = [{
         price: 14.15,
         Rdate: ' 2016.12.06',
         code: '8804775076022',
+        trackList: ['BEAUTIFUL', '붐붐', 'HIGHLIGHT', '기대', '빠른 걸음', '몰래 듣지 마요', '글쎄', '웃음꽃'],
+        imgGa: '/data/seven1.jpg',
+        imgGb: '/data/seven2.jpg',
+        imgGc: '/data/seven3.jpg'
     },
 
     {
@@ -325,6 +405,10 @@ const products = [{
         price: 18.25,
         Rdate: ' 2020.05.07',
         code: '8804775142055',
+        trackList: ['Knock (널찾아가) *Title', '내 이름을 부를 때', 'Somebody like', 'We still', '12시간', '빛이 돼 줄게'],
+        imgGa: '/data/gate1.jpg',
+        imgGb: '/data/gate2.jpg',
+        imgGc: '/data/gate3.jpg'
     },
 ];
 module.exports = products;

@@ -882,12 +882,51 @@ body {
   height: 800px;
   margin: 80px 60px;
   border-radius: 50px;
+  padding-top: 110px;
 }
 
 .info__img {
   width: 500px;
   height: 500px;
-  margin: 110px 110px 10px 110px;
+  margin: 0px 110px 10px 110px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+}
+
+.info__thumbs {
+  height: 70px;
+  width: 486px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(91, 111, 165, 0.3);
+  margin: 0px 10px 0px 117px;
+}
+
+.info__thumb {
+  width: 50px;
+  height: 50px;
+  margin: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.info__thumb--active {
+  border: 2px solid #274FC8;
+  padding: 5px;
 }
 
 .infoPro {
@@ -948,7 +987,8 @@ body {
 }
 
 .descrip {
-  margin-left: 100px;
+  margin-left: 120px;
+  position: relative;
 }
 
 .descrip__title {
@@ -968,21 +1008,47 @@ body {
 
 .descrip__especi {
   width: 560px;
-  height: 300px;
+  height: 330px;
   background-color: white;
   border: 3px solid #5B6FA4;
   border-radius: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-family: "Dosis", sans-serif;
+  color: #101939;
+  font-size: 20px;
 }
 
 .descrip__list {
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
   list-style-type: none;
-  color: #101939;
-  margin: 35px 20px;
+  margin: 55px 20px;
   line-height: 1.8;
+}
+
+.descrip__track {
+  width: 560px;
+  height: 330px;
+  background-color: white;
+  border: 3px solid #5B6FA4;
+  border-radius: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: "Dosis", sans-serif;
+  color: #101939;
+  font-size: 20px;
+  position: absolute;
+  top: 23.3%;
+  left: 650px;
+}
+
+.descrip__tTitle {
+  margin: 35px 60px 5px 60px;
+}
+
+.descrip__list2 {
+  font-size: 20px;
+  line-height: 1.3;
+  margin-left: 70px;
 }
 
 .infoimg {
