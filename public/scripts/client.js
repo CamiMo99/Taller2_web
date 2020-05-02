@@ -6,7 +6,7 @@
 //  console.log(select.value);
 //});
 
-var mainImg = document.querySelector('.info__img');
+/*var mainImg = document.querySelector('.info__img');
 var thumbDesc = document.querySelectorAll('.info__thumb');
 
 function handleImageClickVer2(elem) {
@@ -24,4 +24,4 @@ function iterateThumbsver2(elem, index) {
     });
 }
 thumbDesc.forEach(iterateThumbsver2);
-handleImageClickVer2(thumbDesc[0]);
+handleImageClickVer2(thumbDesc[0]);*/

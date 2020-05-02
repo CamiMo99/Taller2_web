@@ -1,5 +1,21 @@
+//importar modules
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
+
+const express = require('express');
+const exhbs = require('express-handlebars');
+const path = require('path');
+
+//
+const configureRoutes = require('./routes');
+
+const app = express();
+
+
+app.use(express.static('public'));
+
+app.engine('handlebars', exhbs());
+app.set('view engine', 'handlebars');
 
 // Connection URL
 const url = 'mongodb://localhost:27017';
@@ -17,44 +33,11 @@ client.connect(function(err) {
 
     const db = client.db(dbName);
 
-    //consultas
-
-    client.close();
+    configureRoutes(app, db);
 
 });
 
-
-const express = require('express');
-const exhbs = require('express-handlebars');
-const products = require('./products');
-const path = require('path');
-
-const app = express();
-
-app.engine('handlebars', exhbs());
-app.set('view engine', 'handlebars');
-
-app.use(express.static('public'));
-
-//ruta de la pagina principal
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/public/index.html'))
-});
-
-//Ruta de la tienda, la lista de los productos
-app.get('/store', function(req, res) {
-    var context = { products: products, }
-    res.render('list', context);
-});
-
-//Ruta del producto
-app.get('/products/:name/:id', function(req, res) {
-    var id = parseInt(req.params.id);
-    var produ = products[id];
-
-    res.render('product', produ);
-});
-
+//iniciar servidor en el puerto 3000
 app.listen(3000, function() {
     console.log('app escucha');
 });
