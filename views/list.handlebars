@@ -5,37 +5,37 @@
     <h3 class="filter__tiCate">Category</h3>
 
             <ul class="filter__listCate">
-                <a class="filter__link" href=""><li>Female Group</li></a>
-                <a class="filter__link" href=""><li>Male Group</li></a>
-                <a class="filter__link" href=""><li>Solo</li></a>
+                <a class="filter__link" href="?typeG=Female group"><li>Female Group</li></a>
+                <a class="filter__link" href="?typeG=Male group"><li>Male Group</li></a>
+                <a class="filter__link" href="?typeG=Solo"><li>Solo</li></a>
             </ul>
     
     <h3 class="filter__ticompa">Company</h3>
 
              <ul class="filter__listCompa">
-                 <a class="filter__link" href=""> <li>Ateam</li></a>
-                 <a class="filter__link" href=""><li>BigHit Entertainment</li></a>
-                 <a class="filter__link" href=""><li>Cube Entertainment</li></a>
-                 <a class="filter__link" href=""><li>Fantagio</li></a>
-                 <a class="filter__link" href=""><li>Jellyfish Entertainment</li></a>
-                 <a class="filter__link" href=""><li>JYP Entertainment</li></a>
-                 <a class="filter__link" href=""><li>Kakao M</li></a>
-                 <a class="filter__link" href=""><li>Konnect Entertainment</li></a>
-                 <a class="filter__link" href=""><li>MNH Entertainment</li></a>
-                 <a class="filter__link" href=""><li>Pledis Entertainment</li></a>
-                 <a class="filter__link" href=""><li>SM Entertainment</li></a>
-                 <a class="filter__link" href=""><li>Startship Entertainment</li></a>
-                 <a class="filter__link" href=""><li>Victor Entertainment</li></a>
-                 <a class="filter__link" href=""><li>YG Entertainment</li></a>                
+                 <a class="filter__link" href="?company=Ateam"><li>Ateam</li></a>
+                 <a class="filter__link" href="?company=BigHit Entertainment"><li>BigHit Entertainment</li></a>
+                 <a class="filter__link" href="?company=Cube Entertainment"><li>Cube Entertainment</li></a>
+                 <a class="filter__link" href="?company=Fantagio"><li>Fantagio</li></a>
+                 <a class="filter__link" href="?company=Jellyfish Entertainment"><li>Jellyfish Entertainment</li></a>
+                 <a class="filter__link" href="?company=JYP Entertainment"><li>JYP Entertainment</li></a>
+                 <a class="filter__link" href="?company=Kakao M"><li>Kakao M</li></a>
+                 <a class="filter__link" href="?company=Konnect Entertainment"><li>Konnect Entertainment</li></a>
+                 <a class="filter__link" href="?company=MNH Entertainment"><li>MNH Entertainment</li></a>
+                 <a class="filter__link" href="?company=Pledis Entertainment"><li>Pledis Entertainment</li></a>
+                 <a class="filter__link" href="?company=SM Entertainment"><li>SM Entertainment</li></a>
+                 <a class="filter__link" href="?company=Startship Entertainment"><li>Startship Entertainment</li></a>
+                 <a class="filter__link" href="?company=Victor Entertainment"><li>Victor Entertainment</li></a>
+                 <a class="filter__link" href="?company=YG Family"><li>YG Family</li></a>                
              </ul>
 
     <h3 class="filter__tiDate">Date</h3>
 
             <ul class="filter__listDate">
-                <a class="filter__link" href=""><li>2016</li></a>
-                <a class="filter__link" href=""><li>2018</li></a>
-                <a class="filter__link" href=""><li>2019</li></a>
-                <a class="filter__link" href=""><li>2020</li></a>
+                <a class="filter__link" href="?date=2016"><li>2016</li></a>
+                <a class="filter__link" href="?date=2018"><li>2018</li></a>
+                <a class="filter__link" href="?date=2019"><li>2019</li></a>
+                <a class="filter__link" href="?date=2020"><li>2020</li></a>
             </ul>
 </nav>
 
@@ -53,7 +53,7 @@
 
 {{#each products}}
     <div class="product">
-        <a class="product__link" href="/products/{{ name }}/{{@index}}">
+        <a class="product__link" href="/products/{{ name }}/{{_id}}">
         <img class="product__img" src="{{img}}" alt="">
         <h2 class="product__title">
             {{name}}

@@ -10,7 +10,6 @@ function configureRoutes(app, db) {
 
     //Ruta de la tienda, la lista de los productos
     app.get('/store', function(req, res) {
-        //var context = { products: products }
         console.log(req.query);
 
         //FILTROS
@@ -37,18 +36,20 @@ function configureRoutes(app, db) {
             }
         }
 
+        //BUSQUEDA
         //si el usuario hace una busqueda
         if (req.query.search) {
             filters.$and.push({
                 miniTitle: {
                     $regex: new RegExp(req.query.search, 'i'),
                 },
-            })
+            });
         }
 
         if (filters.$and.length === 0) {
             delete filters.$and;
         }
+
         //ORDENAMIENTOS
         var sortings = {};
 
@@ -87,17 +88,37 @@ function configureRoutes(app, db) {
 
     //Ruta del producto
     app.get('/products/:name/:id', function(req, res) {
-        const filter = { _id: { $eq: new ObjectId(req.params.id) } }
-            // Get the documents collection
+        if (req.params.id.length != 24) {
+            res.redirect('/404');
+        }
+        const filter = {
+            _id: {
+                $eq: new ObjectId(req.params.id)
+            }
+        };
+
+        // Get the documents collection
         const collection = db.collection('products');
+
         // Find some documents
         collection.find(filter).toArray(function(err, docs) {
             assert.equal(err, null);
-            var context = docs[0];
 
+            if (docs.length == 0) {
+                res.redirect('/404');
+            }
+
+            var context = docs[0];
 
             res.render('product', context);
         });
+    });
+
+    //404 ERROR
+    app.get('/404', function(req, res) {
+        console.log('hola desde 404')
+        var context = {};
+        res.render('404', context);
     });
 }
 

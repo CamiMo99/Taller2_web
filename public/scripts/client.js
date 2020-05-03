@@ -1,4 +1,4 @@
-/*var mainImg = document.querySelector('.info__img');
+var mainImg = document.querySelector('.info__img');
 var thumbDesc = document.querySelectorAll('.info__thumb');
 
 function handleImageClickVer2(elem) {
@@ -16,23 +16,23 @@ function iterateThumbsver2(elem, index) {
     });
 }
 thumbDesc.forEach(iterateThumbsver2);
-handleImageClickVer2(thumbDesc[0]);*/
-
-//SORT
-var select = document.querySelector('.store__options');
-select.addEventListener('change', function(ev) {
-    var url = location.pathname;
-    url = url + '?sort=' + select.value;
-    console.log(select.value);
-    location.href = url;
-});
+handleImageClickVer2(thumbDesc[0]);
 
 var url = location.pathname;
 
+//BUSQUEDA
 var button = document.querySelector('.search__btn');
 button.addEventListener('click', function() {
     var input = document.querySelector('.search__box');
     var search = input.value;
     url = url + '?search=' + search;
     location.href = url;
-})
+});
+
+//SORT - ORDENAMIENTOS
+var select = document.querySelector('.store__options');
+select.addEventListener('change', function(ev) {
+    url = url + '?sort=' + select.value;
+    console.log(select.value);
+    location.href = url;
+});
