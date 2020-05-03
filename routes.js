@@ -13,17 +13,59 @@ function configureRoutes(app, db) {
         //var context = { products: products }
         console.log(req.query);
 
-        //si el usuario filtra por female group
-        // if (req.query.femaleGroup) {
-
-        // }
-
+        //FILTROS
         var filters = {
+            $and: []
+        };
 
+        //si el usuario filtra por category
+        if (req.query.typeG) {
+            filters.typeG = {
+                $eq: req.query.typeG
+            }
+        }
+        //si el usuario filtra por company
+        if (req.query.company) {
+            filters.company = {
+                $eq: req.query.company
+            }
+        }
+        //si el usuario filtra por date
+        if (req.query.date) {
+            filters.date = {
+                $eq: parseInt(req.query.date)
+            }
         }
 
+        //si el usuario hace una busqueda
+        if (req.query.search) {
+            filters.$and.push({
+                miniTitle: {
+                    $regex: new RegExp(req.query.search, 'i'),
+                },
+            })
+        }
+
+        if (filters.$and.length === 0) {
+            delete filters.$and;
+        }
+        //ORDENAMIENTOS
         var sortings = {};
 
+        //si el usuario ordena de menor a mayor
+        if (req.query.sort == 'price_desc') {
+            sortings.price = -1;
+        }
+
+        //si el usuario ordena de mayor a menor
+        if (req.query.sort == 'price_asc') {
+            sortings.price = 1;
+        }
+
+        //si el usuario ordena de la A a la Z
+        if (req.query.sort == 'name_az') {
+            sortings.name = 1;
+        }
         // Get the documents collection
         const collection = db.collection('products');
         // Find some documents
@@ -32,10 +74,10 @@ function configureRoutes(app, db) {
 
             //crear el contexto
             var context = {
-                products: docs,
-            }
-            console.log(context);
-            //renderizar el archivo list.handlebar en el contexto creado
+                    products: docs,
+                }
+                //console.log(context);
+                //renderizar el archivo list.handlebar en el contexto creado
             res.render('list', context);
         });
 

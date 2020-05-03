@@ -3,7 +3,7 @@ const products = [{
         img: '/data/kill.jpg',
         nameG: 'BLACKPINK',
         typeG: 'Female group',
-        company: 'YG entertainment',
+        company: 'YG family',
         imgDes: '/data/Dkill.jpg',
         imgSell: '/data/Pkill.jpg',
         miniTitle: 'BLACKPINK Mini Album Vol. 2 - KILL THIS LOVE',

@@ -1,11 +1,3 @@
-//SORT
-//var select = document.querySelector('select');
-//  select.addEventListener('change', function(ev) {
-//    var url = location.pathname;
-//  url = url + '?price'
-//  console.log(select.value);
-//});
-
 /*var mainImg = document.querySelector('.info__img');
 var thumbDesc = document.querySelectorAll('.info__thumb');
 
@@ -25,3 +17,22 @@ function iterateThumbsver2(elem, index) {
 }
 thumbDesc.forEach(iterateThumbsver2);
 handleImageClickVer2(thumbDesc[0]);*/
+
+//SORT
+var select = document.querySelector('.store__options');
+select.addEventListener('change', function(ev) {
+    var url = location.pathname;
+    url = url + '?sort=' + select.value;
+    console.log(select.value);
+    location.href = url;
+});
+
+var url = location.pathname;
+
+var button = document.querySelector('.search__btn');
+button.addEventListener('click', function() {
+    var input = document.querySelector('.search__box');
+    var search = input.value;
+    url = url + '?search=' + search;
+    location.href = url;
+})
