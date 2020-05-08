@@ -3,9 +3,15 @@
           box-sizing: border-box;
 }
 
+html {
+  position: relative;
+}
+
 body {
   margin: 0px;
   background-color: #EDEDED;
+  padding-bottom: 50px;
+  min-height: 100vh;
 }
 
 @font-face {
@@ -384,6 +390,7 @@ body {
   background-color: #101939;
   text-align: center;
   padding: 40px;
+  margin-top: 200px;
 }
 
 .NewsLetter__title {
@@ -441,6 +448,9 @@ body {
   font-weight: 500;
   text-align: center;
   width: 100%;
+  position: absolute;
+  max-height: 100%;
+  bottom: 0;
 }
 
 .choose__title {
@@ -758,10 +768,22 @@ body {
   font-size: 20px;
   width: 890px;
   height: 60px;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
   margin-left: 30px;
   border-radius: 20px;
-  text-align: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.store__by {
+  margin: 0 50px;
 }
 
 .store__options {
@@ -866,7 +888,7 @@ body {
   font-size: 20px;
   width: 890px;
   height: 60px;
-  margin: 20px 0px 50px 470px;
+  margin: 60px 0px 50px 470px;
   border-radius: 20px;
   text-align: end;
 }
