@@ -11,6 +11,11 @@ $colorFilter: rgb(101, 120, 160);
 $colorListFilter: rgb(165, 179, 211);
 $fontSizeFilterSub: 21px;
 $fontSizeFilterlist: 18px;
+//VARIABLES DEL CHECKOUT
+$hInput: 32px;
+$borderInput: 13px;
+$paddingLeft: 15px;
+$fontSinput: 13px;
 * {
     box-sizing: border-box;
 }
@@ -43,3 +48,4 @@ body {
 @import 'mainGallery';
 @import 'mainListProduct';
 @import 'mainProduct';
+@import 'mainCheckout';

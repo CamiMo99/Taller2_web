@@ -1078,4 +1078,216 @@ body {
   margin-left: 280px;
   margin-bottom: 100px;
 }
+
+.check {
+  width: 900px;
+  height: 900px;
+  background-color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Dosis", sans-serif;
+  color: #101939;
+  padding: 30px 100px 30px 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 17px;
+  -webkit-box-shadow: 2px 4px 20px 3px lightslategray;
+          box-shadow: 2px 4px 20px 3px lightslategray;
+}
+
+.check__title {
+  font-family: LemonMilk, serif;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #5b6fa5;
+}
+
+.check__titlePay {
+  font-family: LemonMilk, serif;
+  padding-bottom: 5px;
+  font-size: 30px;
+  border-bottom: 3px solid #5b6fa5;
+}
+
+.check__name {
+  width: 240px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 84px 40px 10px;
+}
+
+.check__Lastname {
+  width: 240px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 0 40px 10px;
+}
+
+.check__country {
+  width: 635px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 0 40px 10px;
+}
+
+.check__add {
+  width: 634px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 0 40px 10px;
+}
+
+.check__city {
+  width: 185px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 8px 0 10px;
+}
+
+.check__state {
+  width: 185px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 8px 0 10px;
+}
+
+.check__zip {
+  width: 185px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 0 0 10px;
+}
+
+.check__cName {
+  width: 220px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 20px 52px 40px 10px;
+}
+
+.check__no {
+  width: 220px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 20px 0 40px 10px;
+}
+
+.check__exp {
+  width: 266px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 55px 40px 10px;
+}
+
+.check__cvc {
+  width: 245px;
+  height: 32px;
+  border-radius: 13px;
+  border: 2px solid #a5b3d3;
+  background: white;
+  font-family: "Dosis", sans-serif;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #101939;
+  margin: 10px 0 40px 10px;
+}
+
+.check__btn {
+  width: 150px;
+  height: 35px;
+  font-family: "Dosis", sans-serif;
+  color: #101939;
+  border-radius: 13px;
+  font-size: 20px;
+  border: none;
+  border: 2px solid #a5b3d3;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.check__btn:hover {
+  background: #101939;
+  color: white;
+  border: none;
+}
+
+i {
+  color: #a5b3d3;
+  font-size: 50px;
+  margin: 0 40px 10px;
+}
 /*# sourceMappingURL=main.css.map */

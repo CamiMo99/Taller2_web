@@ -1,0 +1,186 @@
+.check {
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $primary-font;
+    color: $primary-color;
+    padding: 30px 100px 30px 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    box-shadow: 2px 4px 20px 3px lightslategray;
+    &__title {
+        font-family: $second-font;
+        font-size: 30px;
+        padding-bottom: 5px;
+        border-bottom: 3px solid rgb(91, 111, 165);
+    }
+    &__titlePay {
+        font-family: $second-font;
+        padding-bottom: 5px;
+        font-size: 30px;
+        border-bottom: 3px solid rgb(91, 111, 165);
+    }
+    &__name {
+        width: 240px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 84px 40px 10px;
+    }
+    &__Lastname {
+        width: 240px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 0 40px 10px;
+    }
+    &__country {
+        width: 635px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 0 40px 10px;
+    }
+    &__add {
+        width: 634px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 0 40px 10px;
+    }
+    &__city {
+        width: 185px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 8px 0 10px;
+    }
+    &__state {
+        width: 185px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 8px 0 10px;
+    }
+    &__zip {
+        width: 185px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 0 0 10px;
+    }
+    //PAYMEN OPTIONS
+    &__cName {
+        width: 220px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 20px 52px 40px 10px;
+    }
+    &__no {
+        width: 220px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 20px 0 40px 10px;
+    }
+    &__exp {
+        width: 266px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 55px 40px 10px;
+    }
+    &__cvc {
+        width: 245px;
+        height: $hInput;
+        border-radius: $borderInput;
+        border: 2px solid $colorListFilter;
+        background: white;
+        font-family: $primary-font;
+        padding-left: $paddingLeft;
+        font-size: $fontSinput;
+        color: $primary-color;
+        margin: 10px 0 40px 10px;
+    }
+    &__btn {
+        width: 150px;
+        height: 35px;
+        font-family: $primary-font;
+        color: $primary-color;
+        border-radius: 13px;
+        font-size: 20px;
+        border: none;
+        border: 2px solid $colorListFilter;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    &__btn:hover {
+        background: $primary-color;
+        color: white;
+        border: none;
+    }
+}
+
+i {
+    color: $colorListFilter;
+    font-size: 50px;
+    margin: 0 40px 10px;
+}

@@ -120,6 +120,11 @@ function configureRoutes(app, db) {
         var context = {};
         res.render('404', context);
     });
+
+    //CHECKOUT 
+    app.get('/checkout', function(req, res) {
+        res.render('checkout');
+    })
 }
 
 module.exports = configureRoutes;
