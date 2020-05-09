@@ -1,3 +1,32 @@
+.error {
+    background: white;
+    margin: auto;
+    width: 550px;
+    height: 200px;
+    border-radius: 40px;
+    margin-top: 60px;
+    padding: 40px;
+    border: 2px solid red;
+    border-style: dashed;
+    margin-bottom: -20px;
+    &__adv {
+        font-family: $second-font;
+        color: red;
+        text-align: center;
+        font-size: 50px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    &__text {
+        font-family: $primary-font;
+        color: $primary-color;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+}
+
 .check {
     width: 900px;
     height: 900px;

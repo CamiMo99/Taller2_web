@@ -16,6 +16,9 @@
         color: white;
         text-decoration: none;
     }
+    &__link:hover {
+        border-bottom: 2px solid white;
+    }
 }
 
 @media (max-width: $breakpoint-respo) {
