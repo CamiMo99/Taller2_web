@@ -90,6 +90,7 @@ function configureRoutes(app, db) {
     app.get('/products/:name/:id', function(req, res) {
         if (req.params.id.length != 24) {
             res.redirect('/404');
+            return;
         }
         const filter = {
             _id: {
@@ -106,6 +107,7 @@ function configureRoutes(app, db) {
 
             if (docs.length == 0) {
                 res.redirect('/404');
+                return;
             }
 
             var context = docs[0];
@@ -124,14 +126,40 @@ function configureRoutes(app, db) {
     //CHECKOUT 
     //mostrar el formulario al usuario
     app.get('/checkout', function(req, res) {
-        res.render('checkout');
+        console.log(req.query.error);
+        var context = {
+            showError: req.query.error,
+        }
+        res.render('checkout', context);
     })
 
     //Recibir la info del usuario
     app.post('/checkout', function(req, res) {
         console.log(req.body);
-        res.send('test');
+
+        var { firstname, lastName, country, address, city, state, zip, cardName, cardNo, expireDate, cvc } = req.body;
+
+        req.body.creation_date = new Date();
+
+        if (!firstname || !lastName || !country || !address || !city || !state || !zip || !cardName || !cardNo || !expireDate || !cvc) {
+            //res.send('error');
+            res.redirect('/checkout?error=true');
+            return;
+        }
+
+        const collection = db.collection('orders');
+        collection.insertOne(req.body);
+        //res.send('test');
+        res.redirect('/confirm');
     })
+
+    //CONFIRMACION DE COMPRA
+    app.get('/confirm', function(req, res) {
+        console.log('hola desde confirmation page')
+            //var context = {};
+        res.render('confirm');
+
+    });
 }
 
 module.exports = configureRoutes;
