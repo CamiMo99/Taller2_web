@@ -23,6 +23,7 @@
     }
     &__titlePay {
         font-family: $second-font;
+        margin: 50px 0;
         padding-bottom: 5px;
         font-size: 30px;
         border-bottom: 3px solid rgb(91, 111, 165);
@@ -146,7 +147,7 @@
         padding-left: $paddingLeft;
         font-size: $fontSinput;
         color: $primary-color;
-        margin: 10px 55px 40px 10px;
+        margin: 0 55px 40px 10px;
     }
     &__cvc {
         width: 245px;
@@ -158,7 +159,7 @@
         padding-left: $paddingLeft;
         font-size: $fontSinput;
         color: $primary-color;
-        margin: 10px 0 40px 10px;
+        margin: 0 0 40px 10px;
     }
     &__btn {
         width: 150px;
@@ -182,5 +183,5 @@
 i {
     color: $colorListFilter;
     font-size: 50px;
-    margin: 0 40px 10px;
+    margin: 0 40px 20px;
 }

@@ -1118,6 +1118,7 @@ body {
 
 .check__titlePay {
   font-family: LemonMilk, serif;
+  margin: 50px 0;
   padding-bottom: 5px;
   font-size: 30px;
   border-bottom: 3px solid #5b6fa5;
@@ -1250,7 +1251,7 @@ body {
   padding-left: 15px;
   font-size: 13px;
   color: #101939;
-  margin: 10px 55px 40px 10px;
+  margin: 0 55px 40px 10px;
 }
 
 .check__cvc {
@@ -1263,7 +1264,7 @@ body {
   padding-left: 15px;
   font-size: 13px;
   color: #101939;
-  margin: 10px 0 40px 10px;
+  margin: 0 0 40px 10px;
 }
 
 .check__btn {
@@ -1288,6 +1289,6 @@ body {
 i {
   color: #a5b3d3;
   font-size: 50px;
-  margin: 0 40px 10px;
+  margin: 0 40px 20px;
 }
 /*# sourceMappingURL=main.css.map */
