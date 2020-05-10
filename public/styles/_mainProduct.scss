@@ -80,11 +80,22 @@
         background: $primary-color;
         position: absolute;
         left: 800px;
+        bottom: 71px;
+        width: 150px;
+        height: 40px;
+        font-family: $primary-font;
+        color: white;
+        border-radius: 13px;
+        font-size: 17px;
+        border: none;
     }
     &__btn--B {
         background: $primary-color;
         position: absolute;
         left: 1000px;
+    }
+    &__btn--B:hover {
+        box-shadow: 2px 4px 10px $colorFilter;
     }
 }
 

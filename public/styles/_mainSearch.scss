@@ -31,6 +31,22 @@
     &__btn--lupa {
         width: 30%;
     }
+    &__btncar {
+        background-color: transparent;
+        border: none;
+    }
+    &__notibtncar {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(252, 45, 45);
+        font-family: $primary-font;
+        font-weight: 600;
+        color: white;
+        border-radius: 100%;
+        border: none;
+        text-align: center;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: $breakpoint-respo) {

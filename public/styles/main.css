@@ -115,6 +115,24 @@ body {
   width: 30%;
 }
 
+.search__btncar {
+  background-color: transparent;
+  border: none;
+}
+
+.search__notibtncar {
+  width: 20px;
+  height: 20px;
+  background-color: #fc2d2d;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: white;
+  border-radius: 100%;
+  border: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
 @media (max-width: 414px) {
   .search {
     display: -webkit-box;
@@ -883,6 +901,12 @@ body {
   padding: 8px 15px;
   border-radius: 13px;
   margin-top: -5px;
+  cursor: pointer;
+}
+
+.product__cart:hover {
+  -webkit-box-shadow: 2px 4px 10px #6578a0;
+          box-shadow: 2px 4px 10px #6578a0;
 }
 
 .barNext {
@@ -1004,12 +1028,25 @@ body {
   background: #101939;
   position: absolute;
   left: 800px;
+  bottom: 71px;
+  width: 150px;
+  height: 40px;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  border-radius: 13px;
+  font-size: 17px;
+  border: none;
 }
 
 .infoPro__btn--B {
   background: #101939;
   position: absolute;
   left: 1000px;
+}
+
+.infoPro__btn--B:hover {
+  -webkit-box-shadow: 2px 4px 10px #6578a0;
+          box-shadow: 2px 4px 10px #6578a0;
 }
 
 .descrip {

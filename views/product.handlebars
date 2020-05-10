@@ -23,7 +23,13 @@
     </nav> -->
 
     <div class="infoPro__btn">
-        <button class="infoPro__btn infoPro__btn--C">ADD TO CART</button>
+        <button class="product__cart infoPro__btn--C"
+        data-img="{{ img }}"
+            data-name="{{ miniTitle }}"
+            data-price="{{ price }}"
+            data-company="{{ company }}"
+            data-id="{{ _id }}">
+        ADD TO CART</button>
         <button class="infoPro__btn infoPro__btn--B">BUY IT NOW</button>
     </div>
 </section>

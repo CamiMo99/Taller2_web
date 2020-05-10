@@ -153,6 +153,10 @@
         padding: 8px 15px;
         border-radius: 13px;
         margin-top: -5px;
+        cursor: pointer;
+    }
+    &__cart:hover {
+        box-shadow: 2px 4px 10px $colorFilter;
     }
 }
 
