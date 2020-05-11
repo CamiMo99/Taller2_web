@@ -1,0 +1,73 @@
+.error404 {
+    width: 1400px;
+    height: 700px;
+    background-color: $primary-color;
+    border-radius: 40px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 5px 150px;
+    &__404 {
+        font-family: $second-font;
+        color: firebrick;
+        font-size: 100px;
+        margin: 0;
+    }
+    &__ops {
+        font-family: $second-font;
+        color: white;
+        font-size: 60px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    &__sorry {
+        font-family: $primary-font;
+        color: white;
+        font-size: 60px;
+        width: 400px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    &__pag {
+        font-family: $primary-font;
+        color: $colorFilter;
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    &__worry {
+        font-family: $primary-font;
+        color: $colorFilter;
+        font-size: 18px;
+        margin: 0;
+    }
+    &__text {
+        margin-top: 60px;
+    }
+    &__gif {
+        //background-color: slateblue;
+        margin-left: 600px;
+        width: 50%;
+        -moz-transform: scaleX(-1);
+        transform: scaleX(-1);
+        margin-top: -450px;
+    }
+    &__btnHome {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+        font-family: $primary-font;
+        font-weight: 600;
+        margin-top: 20px;
+        border-radius: 13px;
+        background-color: $primary-color;
+        color: white;
+        margin-top: 10px;
+        border: 3px solid white;
+    }
+    &__btnHome:hover {
+        background-color: white;
+        color: $primary-color;
+        box-shadow: 2px 4px 10px rgb(31, 60, 116);
+    }
+}

@@ -1124,13 +1124,18 @@ body {
   background: white;
   margin: auto;
   width: 550px;
-  height: 200px;
+  height: 360px;
   border-radius: 40px;
   margin-top: 60px;
   padding: 40px;
   border: 2px solid red;
   border-style: dashed;
   margin-bottom: -20px;
+}
+
+.error__ani {
+  width: 40%;
+  margin-left: 130px;
 }
 
 .error__adv {
@@ -1434,5 +1439,88 @@ i {
 .cont__link:hover {
   color: #101939;
   text-decoration: underline;
+}
+
+.error404 {
+  width: 1400px;
+  height: 700px;
+  background-color: #101939;
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 5px 150px;
+}
+
+.error404__404 {
+  font-family: LemonMilk, serif;
+  color: firebrick;
+  font-size: 100px;
+  margin: 0;
+}
+
+.error404__ops {
+  font-family: LemonMilk, serif;
+  color: white;
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.error404__sorry {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 60px;
+  width: 400px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.error404__pag {
+  font-family: "Dosis", sans-serif;
+  color: #6578a0;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.error404__worry {
+  font-family: "Dosis", sans-serif;
+  color: #6578a0;
+  font-size: 18px;
+  margin: 0;
+}
+
+.error404__text {
+  margin-top: 60px;
+}
+
+.error404__gif {
+  margin-left: 600px;
+  width: 50%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  margin-top: -450px;
+}
+
+.error404__btnHome {
+  width: 100px;
+  height: 40px;
+  font-size: 13px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 13px;
+  background-color: #101939;
+  color: white;
+  margin-top: 10px;
+  border: 3px solid white;
+}
+
+.error404__btnHome:hover {
+  background-color: white;
+  color: #101939;
+  -webkit-box-shadow: 2px 4px 10px #1f3c74;
+          box-shadow: 2px 4px 10px #1f3c74;
 }
 /*# sourceMappingURL=main.css.map */

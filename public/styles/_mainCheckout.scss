@@ -2,13 +2,17 @@
     background: white;
     margin: auto;
     width: 550px;
-    height: 200px;
+    height: 360px;
     border-radius: 40px;
     margin-top: 60px;
     padding: 40px;
     border: 2px solid red;
     border-style: dashed;
     margin-bottom: -20px;
+    &__ani {
+        width: 40%;
+        margin-left: 130px;
+    }
     &__adv {
         font-family: $second-font;
         color: red;

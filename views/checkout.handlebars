@@ -1,6 +1,7 @@
 
 {{#if showError}}
 <section class="error">
+    <img class="error__ani" src="/data/error2.gif" alt="">
     <h3 class="error__adv">¡ERROR!</h3>
     <p class="error__text">It looks like something went wrong. Please try again!</p>
 </section>
@@ -8,7 +9,7 @@
 <section class="check">
     <div class="check__shipping">        
         <h2 class="check__title">Shipping details</h2>
-         <form class="check__options" action="/checkout" method="POST">
+         <form class="check__options"  action="/checkout" method="POST">
             <label>
                 Name
                 <input class="check__name" type="text" placeholder="Your Name" name="firstname" required="true">
@@ -73,7 +74,12 @@
             </label>
             
             <button class="check__btn">Send</button>
+
+            <input class="check__list" type="text" name="products">
+
          </form>
     </div>
 
 </section>
+
+<script src="/scripts/cart.js"></script>
