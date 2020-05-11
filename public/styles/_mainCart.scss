@@ -60,7 +60,7 @@
 .resume {
     width: 300px;
     background-color: white;
-    margin: 100px 0 100px $LeftSpace;
+    margin: 13px 0 100px $LeftSpace;
     border-radius: 40px;
     color: $primary-color;
     padding: 30px 100px;
@@ -84,7 +84,7 @@
     }
     &__text {
         width: 250px;
-        border-bottom: 2px solid $colorFilter;
+        border-bottom: 3px solid $colorFilter;
         margin-left: -74px;
         margin-bottom: 30px;
     }

@@ -1498,8 +1498,6 @@ i {
 .error404__gif {
   margin-left: 600px;
   width: 50%;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
   margin-top: -450px;
 }
 
@@ -1595,7 +1593,7 @@ i {
 .resume {
   width: 300px;
   background-color: white;
-  margin: 100px 0 100px 60px;
+  margin: 13px 0 100px 60px;
   border-radius: 40px;
   color: #101939;
   padding: 30px 100px;
@@ -1624,7 +1622,7 @@ i {
 
 .resume__text {
   width: 250px;
-  border-bottom: 2px solid #6578a0;
+  border-bottom: 3px solid #6578a0;
   margin-left: -74px;
   margin-bottom: 30px;
 }
