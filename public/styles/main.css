@@ -1363,4 +1363,76 @@ i {
   font-size: 50px;
   margin: 0 40px 20px;
 }
+
+.confirm {
+  width: 900px;
+  height: 750px;
+  background-color: white;
+  margin: auto;
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border: 5px dashed #13c913;
+}
+
+.confirm__congrats {
+  width: 30%;
+  margin: 30px 300px 15px;
+}
+
+.confirm__title {
+  font-family: LemonMilk, serif;
+  font-size: 40px;
+  text-align: center;
+  color: #101939;
+  margin: 0;
+}
+
+.confirm__hola {
+  width: 22%;
+  margin: 15px 365px 15px;
+}
+
+.confirm__text {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 100px 20px;
+}
+
+.confirm__btnCon {
+  width: 160px;
+  height: 45px;
+  font-size: 17px;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  border-radius: 13px;
+  margin: 40px 370px 0;
+  background-color: #101939;
+}
+
+.confirm__btnCon:hover {
+  background-color: green;
+  -webkit-box-shadow: 2px 4px 10px #6578a0;
+          box-shadow: 2px 4px 10px #6578a0;
+}
+
+.cont {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 320px;
+  margin-bottom: 100px;
+}
+
+.cont__link {
+  text-decoration: none;
+  color: #6578a0;
+}
+
+.cont__link:hover {
+  color: #101939;
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */
