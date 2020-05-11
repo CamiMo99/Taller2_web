@@ -160,6 +160,13 @@ function configureRoutes(app, db) {
         res.render('confirm');
 
     });
+
+    //PAGINA DEL CARRITO
+    app.get('/cart', function(req, res) {
+        var context = {};
+        res.render('cart', context);
+
+    });
 }
 
 module.exports = configureRoutes;

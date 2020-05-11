@@ -1523,4 +1523,153 @@ i {
   -webkit-box-shadow: 2px 4px 10px #1f3c74;
           box-shadow: 2px 4px 10px #1f3c74;
 }
+
+.carrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart {
+  width: 900px;
+  height: 100%;
+  background-color: white;
+  border-radius: 40px;
+  padding: 50px 90px;
+  margin: 10px 60px;
+  margin-right: 20px;
+  color: #101939;
+}
+
+.cart__title {
+  font-family: LemonMilk, serif;
+  font-size: 30px;
+  border-bottom: 2px solid #6578a0;
+  margin-top: 0;
+}
+
+.cart__img {
+  width: 17%;
+}
+
+.cart__name {
+  font-family: LemonMilk, serif;
+  font-size: 23px;
+  margin: 0 0 10px;
+}
+
+.cart__nameG {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.cart__price {
+  font-family: LemonMilk, serif;
+  font-size: 23px;
+  color: red;
+  margin: 0;
+}
+
+.cart__elim {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: -40px;
+  margin-left: 450px;
+}
+
+.cart__line {
+  border: 1px solid #6578a0;
+}
+
+.cart__text {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.resume {
+  width: 300px;
+  background-color: white;
+  margin: 100px 0 100px 60px;
+  border-radius: 40px;
+  color: #101939;
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.resume__title {
+  font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.resume__total {
+  font-family: LemonMilk, serif;
+  font-size: 30px;
+}
+
+.resume__p {
+  font-family: LemonMilk, serif;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.resume__text {
+  width: 250px;
+  border-bottom: 2px solid #6578a0;
+  margin-left: -74px;
+  margin-bottom: 30px;
+}
+
+.resume__btncheckPage {
+  width: 250px;
+  height: 40px;
+  margin-left: -74px;
+  border-radius: 15px;
+  background-color: #6578a0;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.resume__btncheckPage:hover {
+  -webkit-box-shadow: 2px 4px 10px #6578a0;
+          box-shadow: 2px 4px 10px #6578a0;
+  background-color: #101939;
+  border: none;
+  color: white;
+}
+
+#iconT {
+  color: #101939;
+  font-size: 30px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.con {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.con__link {
+  text-decoration: none;
+  color: #6578a0;
+}
+
+.con__link:hover {
+  color: #101939;
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */

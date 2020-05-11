@@ -7,6 +7,7 @@ function onLoad(params) {
 
     var btnCarrito = document.querySelector('.search__btncar');
 
+
     var cartList = [];
 
     //cuando la pg se carga se actualiza el numero del carrito
@@ -22,20 +23,24 @@ function onLoad(params) {
 
         var total = 0;
 
-        var cartContainer = document.querySelector('.search__carritoList');
+        var cartContainer = document.querySelector('.cart__carritoList');
         cartContainer.innerHTML = '';
         cartList.forEach(function(obj, index) {
             var newItem = document.createElement('div');
 
-            newItem.classList.add('.search__carritoList')
+            newItem.classList.add('.cart__carritoList')
             newItem.innerHTML = `
-                <img class="search__cartImg" src="${obj.img}" />
-                <p class="search__cartName">` + obj.name + `</p>
-                <p class="search__cartNameG">` + obj.nameG + `</p>
-                <small class="search__cartPrice">${ obj.price }</small>
-                <button class="search__elim"> <i class="fas fa-trash-alt"></i> </button>
+                
+                <img class="cart__img" src="${obj.img}" />
+                <div class="cart__text">
+                <p class="cart__name">` + obj.name + `</p>
+                <p class="cart__nameG">` + obj.nameG + `</p>
+                <small class="cart__price">${ obj.price }</small>
+                <button class="cart__elim"> <i id="iconT" class="fas fa-trash-alt"></i> </button>
+                </div>
+                <p class="cart__line"></p>
                  `;
-            var btn = newItem.querySelector('.search__elim');
+            var btn = newItem.querySelector('.cart__elim');
             btn.addEventListener('click', function() {
                 cartList.splice(index, 1); //elimina el elemento en la lista (memoria)
                 cartBtn.innerText = cartList.length; //actualiza el numero del carrito
@@ -46,7 +51,7 @@ function onLoad(params) {
             cartContainer.appendChild(newItem);
             total += parseInt(obj.price);
         });
-        var totalElem = document.querySelector('.search__total');
+        var totalElem = document.querySelector('.resume__total');
         totalElem.innerText = total;
     }
 
@@ -80,6 +85,7 @@ function onLoad(params) {
             renderCart();
         });
     });
+    btnCarrito.onClick = renderCart();
 }
 
 window.addEventListener('load', onLoad);

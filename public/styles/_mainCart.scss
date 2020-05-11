@@ -1,0 +1,130 @@
+.carrito {
+    display: flex;
+}
+
+.cart {
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    border-radius: 40px;
+    padding: 50px 90px;
+    margin: 10px $LeftSpace;
+    margin-right: 20px;
+    color: $primary-color;
+    &__title {
+        font-family: $second-font;
+        font-size: 30px;
+        border-bottom: 2px solid $colorFilter;
+        margin-top: 0;
+    }
+    &__img {
+        width: 17%;
+    }
+    &__name {
+        font-family: $second-font;
+        font-size: 23px;
+        margin: 0 0 10px;
+    }
+    &__nameG {
+        font-family: $primary-font;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    &__price {
+        font-family: $second-font;
+        font-size: 23px;
+        color: red;
+        margin: 0;
+    }
+    &__elim {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        position: relative;
+        top: -40px;
+        margin-left: 450px;
+    }
+    &__line {
+        border: 1px solid $colorFilter;
+    }
+    &__text {
+        //background-color: orange;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+.resume {
+    width: 300px;
+    background-color: white;
+    margin: 100px 0 100px $LeftSpace;
+    border-radius: 40px;
+    color: $primary-color;
+    padding: 30px 100px;
+    text-align: center;
+    &__title {
+        font-family: $primary-font;
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    &__total {
+        font-family: $second-font;
+        font-size: 30px;
+    }
+    &__p {
+        font-family: $second-font;
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    &__text {
+        width: 250px;
+        border-bottom: 2px solid $colorFilter;
+        margin-left: -74px;
+        margin-bottom: 30px;
+    }
+    &__btncheckPage {
+        width: 250px;
+        height: 40px;
+        margin-left: -74px;
+        border-radius: 15px;
+        background-color: $colorFilter;
+        font-family: $primary-font;
+        color: white;
+        font-size: 15px;
+    }
+    &__btncheckPage:hover {
+        box-shadow: 2px 4px 10px $colorFilter;
+        background-color: $primary-color;
+        border: none;
+        color: white;
+    }
+}
+
+#iconT {
+    color: $primary-color;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.con {
+    font-family: $primary-font;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 120px;
+    &__link {
+        text-decoration: none;
+        color: $colorFilter
+    }
+    &__link:hover {
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
