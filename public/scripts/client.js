@@ -20,6 +20,24 @@ handleImageClickVer2(thumbDesc[0]);
 
 var url = location.pathname;
 
+//FILTRO OCULTO
+var filter = document.querySelector('.filter');
+var filbtn = document.querySelector('.fil__BtnFilter');
+
+var handlFilterClick = function(event) {
+    console.log(event, 'otra cosa');
+    filter.classList.toggle('filter--mobile');
+}
+filbtn.addEventListener('click', handleFilterClick);
+
+function handleWinResize(event) {
+    if (window.innerWidth > 400) {
+        mainnav.classList.remove('mainnav--mobile');
+    }
+}
+window.addEventListener('resize', handleWinResize);
+
+
 //BUSQUEDA
 var button = document.querySelector('.search__btn');
 button.addEventListener('click', function() {
