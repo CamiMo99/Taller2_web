@@ -25,7 +25,7 @@
         background: $primary-color;
         border-radius: 20px;
         position: absolute;
-        left: 915px;
+        left: 850px;
         border: none;
     }
     &__btn--lupa {
@@ -34,6 +34,11 @@
     &__btncar {
         background-color: transparent;
         border: none;
+    }
+    &__barita {
+        position: absolute;
+        left: 1200px;
+        top: 110px;
     }
     &__notibtncar {
         width: 20px;
@@ -46,6 +51,9 @@
         border: none;
         text-align: center;
         margin-right: 20px;
+    }
+    &__a {
+        text-decoration: none;
     }
 }
 
@@ -80,6 +88,16 @@
             align-items: center;
             flex-direction: row;
             margin: 25px 0px 10px 0px;
+        }
+        &__barita {
+            width: 10%;
+            left: 100px;
+            top: 220px;
+            margin-bottom: 10px;
+        }
+        &__carro {
+            width: 70%;
+            margin-bottom: 10px;
         }
     }
 }

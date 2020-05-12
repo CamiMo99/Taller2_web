@@ -20,6 +20,9 @@ var main = document.querySelector('.gallery__main');
 var thumbs = document.querySelectorAll('.gallery__thumb');
 
 function handleImageClick(elem) {
+    if (!elem) {
+        return;
+    }
     var src = elem.getAttribute('src');
     main.setAttribute('src', src);
     thumbs.forEach(function(innerElem) {
@@ -41,6 +44,9 @@ var chooMain = document.querySelector('.choose__main');
 var option = document.querySelectorAll('.choose__option');
 
 function handleOptionClick(elem) {
+    if (!elem) {
+        return;
+    }
     var src = elem.getAttribute('data-src');
     console.log(src);
     chooMain.setAttribute('src', src);

@@ -40,7 +40,7 @@
     
     .infoPro {
         position: absolute;
-        top: 45px;
+        top: 150px;
         right: 100px;
         &__title {
             font-family: $second-font;
@@ -80,7 +80,7 @@
             background: $primary-color;
             position: absolute;
             left: 800px;
-            bottom: 71px;
+            bottom: 130px;
             width: 150px;
             height: 40px;
             font-family: $primary-font;
@@ -93,6 +93,7 @@
             background: $primary-color;
             position: absolute;
             left: 1000px;
+            bottom: 130px;
         }
         &__btn--B:hover {
             box-shadow: 2px 4px 10px $colorFilter;

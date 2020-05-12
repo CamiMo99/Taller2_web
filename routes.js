@@ -137,15 +137,17 @@ function configureRoutes(app, db) {
     app.post('/checkout', function(req, res) {
         console.log(req.body);
 
-        var { firstname, lastName, country, address, city, state, zip, cardName, cardNo, expireDate, cvc } = req.body;
+        var { firstname, lastName, country, address, city, state, zip, cardName, cardNo, expireDate, cvc, products } = req.body;
 
         req.body.creation_date = new Date();
 
-        if (!firstname || !lastName || !country || !address || !city || !state || !zip || !cardName || !cardNo || !expireDate || !cvc) {
+        if (!firstname || !lastName || !country || !address || !city || !state || !zip || !cardName || !cardNo || !expireDate || !cvc || !products) {
             //res.send('error');
             res.redirect('/checkout?error=true');
             return;
         }
+
+        req.body.products = JSON.parse(req.body.products);
 
         const collection = db.collection('orders');
         collection.insertOne(req.body);
