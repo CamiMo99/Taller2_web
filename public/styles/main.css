@@ -1120,6 +1120,133 @@ body {
   margin-bottom: 100px;
 }
 
+@media (max-width: 414px) {
+  .info {
+    width: 390px;
+    height: 1050px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 100px;
+  }
+  .info__img {
+    width: 340px;
+    height: 340px;
+    margin: auto;
+  }
+  .info__thumbs {
+    width: 330px;
+    height: 70px;
+    margin: auto;
+  }
+  .info__thumb {
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px;
+  }
+  .infoPro {
+    top: 550px;
+    right: 0px;
+    left: 25px;
+  }
+  .infoPro__title {
+    font-size: 35px;
+  }
+  .infoPro__subTitle {
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 5px;
+  }
+  .infoPro__price {
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: start;
+  }
+  .infoPro__intro {
+    width: 330px;
+    height: 60px;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: start;
+  }
+  .infoPro__btn {
+    width: 150px;
+    height: 40px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    border-radius: 13px;
+    font-size: 17px;
+    border: none;
+  }
+  .infoPro__btn--C {
+    position: absolute;
+    left: 120px;
+    bottom: 130px;
+  }
+  .infoPro__btn--B {
+    background: #101939;
+    position: absolute;
+    left: 120px;
+    bottom: 80px;
+  }
+  .descrip {
+    width: 300px;
+    margin: auto;
+    position: relative;
+  }
+  .descrip__title {
+    width: 300px;
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .descrip__subTitle {
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 5px;
+  }
+  .descrip__text {
+    font-size: 15px;
+    color: #101939;
+    font-weight: 500;
+  }
+  .descrip__especi {
+    width: 390px;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    margin-left: -45px;
+  }
+  .descrip__list {
+    margin: 35px 20px;
+    line-height: 1.8;
+  }
+  .descrip__track {
+    width: 390px;
+    height: 330px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 19px;
+    position: absolute;
+    top: 100%;
+    left: -45px;
+  }
+  .descrip__tTitle {
+    margin: 23px 60px 5px 50px;
+  }
+  .descrip__list2 {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-left: 50px;
+  }
+  .infoimg {
+    width: 97%;
+    margin-left: 6px;
+    margin-bottom: 100px;
+    margin-top: 350px;
+  }
+}
+
 .error {
   background: white;
   margin: auto;
