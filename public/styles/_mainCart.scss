@@ -50,7 +50,6 @@
         border: 1px solid $colorFilter;
     }
     &__text {
-        //background-color: orange;
         display: inline-block;
         vertical-align: top;
         margin-top: 10px;
@@ -128,5 +127,56 @@
     &__link:hover {
         color: $primary-color;
         text-decoration: underline;
+    }
+}
+
+@media (max-width: $breakpoint-respo) {
+    .carrito {
+        display: block;
+    }
+    .cart {
+        width: 380px;
+        padding: 50px 40px;
+        margin: 10px 20px;
+        margin-right: 12px;
+        margin-bottom: 80px;
+        &__img {
+            width: 32%;
+        }
+        &__name {
+            font-size: 20px;
+            margin: 0 0 5px;
+        }
+        &__nameG {
+            font-size: 17px;
+            margin: 0;
+        }
+        &__price {
+            font-size: 24px;
+            margin: 0;
+        }
+        &__elim {
+            top: -10px;
+            margin-left: 120px;
+        }
+        &__text {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+    }
+    .resume {
+        &__btncheckPage {
+            border: none;
+        }
+    }
+    #iconT {
+        font-size: 23px;
+    }
+    .con {
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 80px;
     }
 }

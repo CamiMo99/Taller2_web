@@ -1741,4 +1741,53 @@ i {
   color: #101939;
   text-decoration: underline;
 }
+
+@media (max-width: 414px) {
+  .carrito {
+    display: block;
+  }
+  .cart {
+    width: 380px;
+    padding: 50px 40px;
+    margin: 10px 20px;
+    margin-right: 12px;
+    margin-bottom: 80px;
+  }
+  .cart__img {
+    width: 32%;
+  }
+  .cart__name {
+    font-size: 20px;
+    margin: 0 0 5px;
+  }
+  .cart__nameG {
+    font-size: 17px;
+    margin: 0;
+  }
+  .cart__price {
+    font-size: 24px;
+    margin: 0;
+  }
+  .cart__elim {
+    top: -10px;
+    margin-left: 120px;
+  }
+  .cart__text {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .resume__btncheckPage {
+    border: none;
+  }
+  #iconT {
+    font-size: 23px;
+  }
+  .con {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
