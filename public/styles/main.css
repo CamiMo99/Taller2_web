@@ -1445,12 +1445,7 @@ i {
   .confirm {
     width: 350px;
     height: 700px;
-    background-color: white;
-    margin: auto;
     border-radius: 40px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    border: 5px dashed #13c913;
     padding: 0 20px;
   }
   .confirm__congrats {
@@ -1458,44 +1453,26 @@ i {
     margin: 30px 70px 15px;
   }
   .confirm__title {
-    font-family: LemonMilk, serif;
     font-size: 30px;
-    text-align: center;
-    color: #101939;
-    margin: 0;
   }
   .confirm__hola {
     width: 60%;
     margin: 30px 90px 15px;
   }
   .confirm__text {
-    font-family: "Dosis", sans-serif;
     font-size: 15px;
-    font-weight: 600;
-    text-align: center;
     margin: 0 10px 20px;
   }
   .confirm__btnCon {
     width: 160px;
     height: 45px;
     font-size: 17px;
-    font-family: "Dosis", sans-serif;
-    color: white;
-    border-radius: 13px;
     margin: 10px 70px;
-    background-color: #101939;
     border: none;
   }
   .cont {
-    font-family: "Dosis", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
     margin-left: 70px;
     margin-bottom: 100px;
-  }
-  .cont__link {
-    text-decoration: none;
-    color: #101939;
   }
 }
 
@@ -1578,6 +1555,40 @@ i {
   color: #101939;
   -webkit-box-shadow: 2px 4px 10px #1f3c74;
           box-shadow: 2px 4px 10px #1f3c74;
+}
+
+@media (max-width: 414px) {
+  .error404 {
+    width: 400px;
+    height: 830px;
+    padding: 5px 90px;
+  }
+  .error404__404 {
+    font-size: 100px;
+  }
+  .error404__ops {
+    font-size: 30px;
+  }
+  .error404__sorry {
+    font-size: 40px;
+    width: 300px;
+  }
+  .error404__pag {
+    font-size: 15px;
+  }
+  .error404__worry {
+    font-size: 15px;
+  }
+  .error404__text {
+    margin-top: 300px;
+  }
+  .error404__gif {
+    margin-left: -20px;
+    width: 120%;
+    position: relative;
+    top: -420px;
+    margin-bottom: -20px;
+  }
 }
 
 .carrito {

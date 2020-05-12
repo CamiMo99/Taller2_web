@@ -45,7 +45,6 @@
         margin-top: 60px;
     }
     &__gif {
-        //background-color: slateblue;
         margin-left: 600px;
         width: 50%;
         margin-top: -450px;
@@ -67,5 +66,41 @@
         background-color: white;
         color: $primary-color;
         box-shadow: 2px 4px 10px rgb(31, 60, 116);
+    }
+}
+
+@media (max-width: $breakpoint-respo) {
+    .error404 {
+        width: 400px;
+        height: 830px;
+        //margin-bottom: 50px;
+        //margin-top: 50px;
+        padding: 5px 90px;
+        &__404 {
+            font-size: 100px;
+        }
+        &__ops {
+            font-size: 30px;
+        }
+        &__sorry {
+            font-size: 40px;
+            width: 300px;
+        }
+        &__pag {
+            font-size: 15px;
+        }
+        &__worry {
+            font-size: 15px;
+        }
+        &__text {
+            margin-top: 300px;
+        }
+        &__gif {
+            margin-left: -20px;
+            width: 120%;
+            position: relative;
+            top: -420px;
+            margin-bottom: -20px;
+        }
     }
 }
