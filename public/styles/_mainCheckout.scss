@@ -48,6 +48,7 @@
     margin-bottom: 100px;
     font-size: 17px;
     box-shadow: 2px 4px 20px 3px lightslategray;
+    border-radius: 40px;
     &__title {
         font-family: $second-font;
         font-size: 30px;
@@ -201,7 +202,6 @@
         color: $primary-color;
         border-radius: 13px;
         font-size: 20px;
-        border: none;
         border: 2px solid $colorListFilter;
         cursor: pointer;
         margin-bottom: 20px;
@@ -217,4 +217,81 @@ i {
     color: $colorListFilter;
     font-size: 50px;
     margin: 0 40px 20px;
+}
+
+@media (max-width: $breakpoint-respo) {
+    .error {
+        width: 350px;
+        //height: 360px;
+        padding: 30px 20px;
+        &__ani {
+            width: 55%;
+            margin-left: 70px;
+        }
+    }
+    .check {
+        width: 400px;
+        height: 1400px;
+        padding: 30px 50px 30px 50px;
+        font-size: 17px;
+        flex-direction: column;
+        &__title {
+            width: 300px;
+        }
+        &__titlePay {
+            width: 300px;
+        }
+        &__name {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__Lastname {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__country {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__add {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__city {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__state {
+            width: 300px;
+            margin: 10px 90px 20px 0px
+        }
+        &__zip {
+            width: 300px;
+            margin: 10px 90px 20px 0px
+        }
+        &__cName {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__no {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__exp {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__cvc {
+            width: 300px;
+            margin: 10px 90px 20px 0px;
+        }
+        &__btn {
+            margin-left: 80px;
+            cursor: none;
+        }
+    }
+    i {
+        font-size: 40px;
+        margin: 0 5px 20px 10px;
+    }
 }
