@@ -1441,6 +1441,64 @@ i {
   text-decoration: underline;
 }
 
+@media (max-width: 414px) {
+  .confirm {
+    width: 350px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border: 5px dashed #13c913;
+    padding: 0 20px;
+  }
+  .confirm__congrats {
+    width: 60%;
+    margin: 30px 70px 15px;
+  }
+  .confirm__title {
+    font-family: LemonMilk, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #101939;
+    margin: 0;
+  }
+  .confirm__hola {
+    width: 60%;
+    margin: 30px 90px 15px;
+  }
+  .confirm__text {
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 10px 20px;
+  }
+  .confirm__btnCon {
+    width: 160px;
+    height: 45px;
+    font-size: 17px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    border-radius: 13px;
+    margin: 10px 70px;
+    background-color: #101939;
+    border: none;
+  }
+  .cont {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+  }
+  .cont__link {
+    text-decoration: none;
+    color: #101939;
+  }
+}
+
 .error404 {
   width: 1400px;
   height: 700px;
@@ -1536,6 +1594,7 @@ i {
   padding: 50px 90px;
   margin: 10px 60px;
   margin-right: 20px;
+  margin-bottom: 100px;
   color: #101939;
 }
 
@@ -1592,6 +1651,7 @@ i {
 
 .resume {
   width: 300px;
+  height: 300px;
   background-color: white;
   margin: 13px 0 100px 60px;
   border-radius: 40px;

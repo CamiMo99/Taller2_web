@@ -60,3 +60,61 @@
         text-decoration: underline;
     }
 }
+
+@media (max-width: $breakpoint-respo) {
+    .confirm {
+        width: 350px;
+        height: 700px;
+        background-color: white;
+        margin: auto;
+        border-radius: 40px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        border: 5px dashed rgb(19, 201, 19);
+        padding: 0 20px;
+        &__congrats {
+            width: 60%;
+            margin: 30px 70px 15px;
+        }
+        &__title {
+            font-family: $second-font;
+            font-size: 30px;
+            text-align: center;
+            color: $primary-color;
+            margin: 0;
+        }
+        &__hola {
+            width: 60%;
+            margin: 30px 90px 15px;
+        }
+        &__text {
+            font-family: $primary-font;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+            margin: 0 10px 20px;
+        }
+        &__btnCon {
+            width: 160px;
+            height: 45px;
+            font-size: 17px;
+            font-family: $primary-font;
+            color: white;
+            border-radius: 13px;
+            margin: 10px 70px;
+            background-color: $primary-color;
+            border: none;
+        }
+    }
+    .cont {
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: 70px;
+        margin-bottom: 100px;
+        &__link {
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+}
