@@ -77,7 +77,7 @@ function onLoad(params) {
             cartList.push({
                 img: img,
                 name: name,
-                price: parseInt(price),
+                price: price,
                 nameG: nameG,
                 id: id,
             });
